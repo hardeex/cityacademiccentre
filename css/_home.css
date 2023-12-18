@@ -1,0 +1,445 @@
+.view-all-btn a {
+    background: #fff;
+    border: 2px solid #009aff;
+    border-radius: 3px;
+    color: #009aff;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center
+}
+
+.companies-slider-wrapper.owl-carousel .owl-stage {
+    align-items: center;
+    display: flex
+}
+
+.companies-slider-wrapper.owl-carousel .owl-item img {
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    width: auto
+}
+
+@media (max-width:767px) {
+    .companies-slider-wrapper.owl-carousel .owl-item img {
+        padding: 0 10px
+    }
+}
+
+.course-blocks-section.home .load-more-home-products {
+    border: 1px solid #b0b0b0;
+    border-radius: 7px;
+    color: #313b4d;
+    display: inline-block;
+    font-size: 16px;
+    min-width: 165px;
+    padding: 7px 10px;
+    text-align: center
+}
+
+.course-blocks-section.home ul.course-blocks-tabs {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 40px;
+    padding: 0
+}
+
+.course-blocks-section.home ul.course-blocks-tabs li {
+    margin-right: 20px
+}
+
+.course-blocks-section.home ul.course-blocks-tabs li:last-child {
+    margin-right: 0
+}
+
+.course-blocks-section.home ul.course-blocks-tabs li a {
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    color: #313b4d;
+    display: block;
+    font-size: 18px;
+    padding: 5px 15px;
+    text-align: center
+}
+
+.course-blocks-section.home ul.course-blocks-tabs li a.active {
+    background: #3b4455;
+    border: none;
+    color: #fff
+}
+
+.course-blocks-section.home .home-products-wrapper {
+    display: none
+}
+
+.course-blocks-section.home .home-products-wrapper.active {
+    display: block
+}
+
+.course-blocks-section.home .more-home-products {
+    display: none
+}
+
+.course-blocks-section.home .more-home-products.active {
+    display: block
+}
+
+.home-content .mobile-banner-text {
+    color: #616161;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center
+}
+
+.home-content .mobile-banner-text .feefo-stars {
+    display: inline-block;
+    font-size: 16px
+}
+
+.home-content .mobile-banner-text .feefo-stars .fa {
+    color: #fed216
+}
+
+.home-content .mobile-banner-text .feefo-stars strong {
+    margin-left: 10px
+}
+
+.home-content .mobile-banner-text .feefo-avg {
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.home-content .home-delivery-method-info-blocks {
+    margin-top: 60px
+}
+
+.home-content .home-delivery-method-info-blocks .mobile-helper-text {
+    color: #313b4d;
+    font-size: 16px;
+    font-style: italic
+}
+
+.home-content .home-delivery-method-info-blocks .home-delivery-method-info-block {
+    color: #313b4d
+}
+
+.home-content .home-delivery-method-info-blocks .home-delivery-method-info-block .block-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+.home-content .home-delivery-method-info-blocks .home-delivery-method-info-block .block-description {
+    font-size: 16px
+}
+
+.home-content .home-delivery-method-info-blocks .home-delivery-method-info-block .block-image {
+    height: 67px;
+    margin-bottom: 30px
+}
+
+.home-content .home-delivery-method-info-blocks .home-delivery-method-info-block .block-image img {
+    max-height: 100%
+}
+
+.home-content .slanted-background-section.fixed-height {
+    min-height: 320px
+}
+
+.home-content h3 {
+    color: #777;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center
+}
+
+.home-content .courses-section {
+    margin: 80px 0
+}
+
+.home-content .courses-section [class*=col-] {
+    margin-bottom: 30px
+}
+
+.home-content .courses-section .course-block-wrapper {
+    background: #f2f2f2;
+    height: 100%;
+    margin-bottom: 0
+}
+
+.home-content .courses-section .course-block-wrapper h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-price .course-block-price-value {
+    color: #57cae9;
+    font-size: 24px;
+    font-weight: 700
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-links ul {
+    margin: 0;
+    padding: 0
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-links ul li {
+    background: #717e87;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 2px 5px
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-links ul li a {
+    color: #fff;
+    font-size: 14px
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-inner {
+    padding: 20px;
+    position: relative
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-inner.reduced-t {
+    padding-top: 0
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-inner.reduced-b {
+    padding-bottom: 0
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-inner .badge-label {
+    margin-bottom: 10px
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-inner .pass-pledge-overlay {
+    background: url(/img/home/pass-pledge-overlay.png);
+    display: block;
+    height: 82px;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px;
+    top: 0;
+    width: 82px
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-inner .prod-reviews {
+    margin-top: 10px
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-inner .prod-reviews .review-star {
+    color: #fed216
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-inner .course-block-btns {
+    text-align: right
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-inner .course-block-btns span {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px;
+    text-transform: uppercase
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-inner .course-block-btns span a {
+    color: #fff
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-inner .course-block-btns span.dark {
+    background: #313b4d
+}
+
+.home-content .courses-section .course-block-wrapper .course-block-inner .course-block-btns span.light {
+    background: #7dc419
+}
+
+.home-content .courses-section .course-block-wrapper.featured-courses .course-block-inner .prod-reviews {
+    display: inline-block;
+    float: right;
+    margin-top: 0;
+    text-align: right;
+    width: 30%
+}
+
+.home-content .courses-section .course-block-wrapper.featured-courses .course-block-inner .course-block-price {
+    display: inline-block
+}
+
+.home-content .free-downloads-section .free-downloads-blocks .free-downloads-block {
+    background: none;
+    border: 1px solid #d1d1d1;
+    border-radius: 7px;
+    color: #404449;
+    display: table;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    min-height: 80px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 100%
+}
+
+.home-content .free-downloads-section .free-downloads-blocks .free-downloads-block .free-downloads-block-image {
+    display: table-cell;
+    width: 25%
+}
+
+.home-content .free-downloads-section .free-downloads-blocks .free-downloads-block .free-downloads-block-content {
+    display: table-cell;
+    padding: 10px 30px 10px 0;
+    position: relative;
+    vertical-align: middle
+}
+
+.home-content .free-downloads-section .free-downloads-blocks .free-downloads-block .free-downloads-block-content:after {
+    content: "\f054";
+    font-family: FontAwesome;
+    font-size: 14px;
+    margin-top: -10px;
+    position: absolute;
+    right: 10px;
+    top: 50%
+}
+
+.home-content .find-out-more-wrapper {
+    margin-bottom: 120px
+}
+
+.home-content .find-out-more-wrapper .find-out-more-block-wrapper .find-out-more-block {
+    border: none;
+    border-radius: 0
+}
+
+.home-content .find-out-more-wrapper .find-out-more-block-wrapper .find-out-more-block .find-out-more-block-image {
+    min-height: 200px
+}
+
+.home-content .find-out-more-wrapper .find-out-more-block-wrapper .find-out-more-block-content {
+    background: #f2f2f2;
+    padding: 15px 15px 50px;
+    position: relative;
+    text-align: left
+}
+
+.home-content .find-out-more-wrapper .find-out-more-block-wrapper .find-out-more-block-content .find-out-more-block-title {
+    color: #616161
+}
+
+.home-content .find-out-more-wrapper .find-out-more-block-wrapper .find-out-more-block-content .find-out-more-block-link {
+    bottom: 15px;
+    color: #313b4d;
+    display: inline-block;
+    font-weight: 700;
+    left: 15px;
+    margin-top: 20px;
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+.client-stats-section {
+    margin: 100px 0
+}
+
+.client-stats-section .stat-number {
+    color: #3b4455;
+    font-size: 48px;
+    font-weight: 700
+}
+
+.client-stats-section .stat-unit {
+    color: #616161;
+    font-size: 21px
+}
+
+.client-stats-section .stat-unit strong {
+    color: #313b4d
+}
+
+.client-stats-section img {
+    padding-top: 20px
+}
+
+@media (max-width:991px) {
+    .client-stats-section {
+        margin: 40px 0
+    }
+}
+
+@media (max-width:767px) {
+    .lower-header-banner.image-banner.refresh .image-banner-item {
+        background-image: url(/img/home/hero-banner-mobile.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-size: cover;
+        height: auto;
+        padding-top: 140px
+    }
+
+    .lower-header-banner.image-banner.refresh .image-banner-item .image-banner-text {
+        flex: 0 1 auto;
+        font-size: 30px;
+        line-height: 30px
+    }
+
+    .lower-header-banner.image-banner.refresh .image-banner-item .image-banner-text span {
+        font-size: 18px
+    }
+
+    .lower-header-banner.image-banner.refresh .image-banner-item .feefo-panel {
+        width: 100%
+    }
+
+    .lower-header-banner.image-banner.refresh .image-banner-item .feefo-panel .feefo-panel-link {
+        display: inline-block !important;
+        width: 43%
+    }
+
+    .lower-header-banner.image-banner.refresh .image-banner-item .feefo-panel .certification-image-wrapper,
+    .lower-header-banner.image-banner.refresh .image-banner-item .feefo-panel .certification-image-wrapper a {
+        display: inline
+    }
+
+    .lower-header-banner.image-banner.refresh .image-banner-item .feefo-panel .certification-image-wrapper img {
+        max-height: 47px
+    }
+
+    .home-content .home-delivery-method-info-blocks {
+        margin-top: 30px
+    }
+
+    .client-stats-section {
+        margin: 20px 0
+    }
+
+    .client-stats-section .stat-number {
+        font-size: 28px
+    }
+
+    .client-stats-section .stat-unit {
+        font-size: 18px
+    }
+}
+
+@media (max-width:430px) {
+    .lower-header-banner.image-banner.refresh .image-banner-item .feefo-panel .certification-image-wrapper a img.cert-a {
+        width: 95px
+    }
+
+    .lower-header-banner.image-banner.refresh .image-banner-item .feefo-panel .certification-image-wrapper a img.cert-b {
+        width: 79px
+    }
+}

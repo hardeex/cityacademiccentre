@@ -1,0 +1,506 @@
+body {
+    color: #636363;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    min-width: 320px;
+    overflow-x: hidden;
+    padding-top: 104px;
+    position: relative
+}
+
+img {
+    max-width: 100%
+}
+
+ul {
+    color: #636363
+}
+
+a,
+a:hover {
+    color: inherit
+}
+
+a:hover {
+    text-decoration: none
+}
+
+p {
+    color: #636363;
+    margin-bottom: 25px
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #000;
+    font-weight: 700
+}
+
+h1 {
+    font-size: 20px;
+    margin: 15px 0 20px
+}
+
+h2,
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+.subheading {
+    color: #636363;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px
+}
+
+#olark-wrapper .olark-image-modal-container.olark-hidden {
+    display: none !important
+}
+
+.alert {
+    margin-bottom: 0 !important
+}
+
+.flex-break {
+    flex-basis: 100%;
+    height: 0
+}
+
+
+.banner-ad-container{
+    background-color: rgb(23, 154, 174);
+    width: 100%;
+    top: 0;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    position: absolute;
+    top: 0;
+}
+
+.content{
+    width: 80%;
+    margin: 160px auto 0;
+    text-align: center;
+}
+.content h1{
+    text-transform: uppercase ;
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+.content  h3{
+    color: whitesmoke;
+    font-size: 1rem;
+    line-height: 28px;
+}
+
+.slider-button-container{
+    align-items: center;
+    margin-top: 20px;
+}
+
+.slider-button{
+    color: white;
+    width: 200px;
+    padding: 8px 0;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(23, 154, 174);
+}
+
+
+.slider-button:hover{
+    background: transparent;
+}
+
+
+#slider-button{
+    background-color: white;
+    color: black;
+}
+
+#slider-button:hover{
+    background-color: rgb(23, 154, 174);
+    color: white;
+}
+
+
+#slider-img{
+    width: 100%;
+    height: 100%;
+    animation: zoom 3s linear infinite;
+}
+
+@keyframes zoom {
+
+    0%{
+        transform: scale(1.3s);
+    }
+
+    15%{
+        transform: scale(1s);
+    }
+
+    85%{
+        transform: scale(1s);
+    }
+
+    100%{
+        transform: scale(1.3s);
+    }
+    
+}
+
+
+/***========= FEATURED COURSE SECTION ****======= */
+.course-featured-btn,
+.view-more-courses{
+    background-color: rgb(23, 154, 174);
+    transform: scale(1.5s);
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+
+.view-more-courses{
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.view-more-courses:hover{
+    
+    background: transparent;
+}
+
+.course-featured-btn:hover{
+    cursor: pointer;
+    background: transparent;
+    color: black;
+}
+
+
+
+/****===== IGNITING YOUR KNOWLEDGE SECTION ****/
+
+#learning-section {
+    margin-top: 90px;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+
+#overlay-ignite{
+    height: 100%;
+    background: rgb(255, 249, 249, 0.9);
+}
+
+.special-container {
+    background-color: white;
+    border-radius: 20px; 
+    padding: 20px;
+    width: 60%;
+    margin: 150px auto 160px;
+    text-align: center;
+}
+
+.special-container h2{
+    font-size: 3rem;
+}
+
+.learning-style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+  }
+  
+  .learning-item {
+    width: 30%; 
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .learning-item img {
+    max-width: 30px;
+    height: 30px;
+  }
+  
+ .reviews-section h3{
+    text-align: center;
+    font-size: 2.2rem;
+ }
+
+ .review-initials{
+    margin-right: 15px;
+    border-radius: 10px;
+    background: rgb(23, 154, 174);
+    color: white;
+    padding: 12px;
+ }
+
+ .review-text{
+    text-align: justify;
+ }
+
+ #view-all-review{
+    margin: 0 auto;
+    margin-top: 60px;
+ }
+
+ #view-all-review:hover{
+    color: black;
+ }
+
+
+
+
+
+ /******** BOTTOM STYLING === */
+.checkout-header.prince2[data-v-63921bbf],
+    .checkout-header.ilxgroup[data-v-63921bbf] {
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+    .footer[data-v-6b1390d7] {
+      padding: 0;
+      background-color: #fff;
+      border-bottom: none;
+    }
+
+    .footer.checkout-footer[data-v-6b1390d7] {
+      font-family: Roboto, sans-serif;
+      color: #6c6c6c;
+      font-size: 16px;
+    }
+
+    .footer.checkout-footer a[data-v-6b1390d7] {
+      font-family: Roboto Condensed, sans-serif;
+      color: inherit;
+      text-decoration: underline;
+    }
+
+    .footer.checkout-footer .logo-section[data-v-6b1390d7] {
+      background: #f7f7f7;
+    }
+
+    .footer.checkout-footer .logo-section img[data-v-6b1390d7] {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .footer.checkout-footer .footer-copyright .gmlconsulting a {
+      color: #000;
+    }
+
+    .checkout-header.prince2[data-v-63921bbf],
+    .checkout-header.ilxgroup[data-v-63921bbf] {
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+    .footer[data-v-6b1390d7] {
+      padding: 0;
+      background-color: #fff;
+      border-bottom: none;
+    }
+
+    .footer.checkout-footer[data-v-6b1390d7] {
+      font-family: Roboto, sans-serif;
+      color: #6c6c6c;
+      font-size: 16px;
+    }
+
+    .footer.checkout-footer a[data-v-6b1390d7] {
+      font-family: Roboto Condensed, sans-serif;
+      color: inherit;
+      text-decoration: underline;
+    }
+
+    .footer.checkout-footer .logo-section[data-v-6b1390d7] {
+      background: #f7f7f7;
+    }
+
+    .footer.checkout-footer .logo-section img[data-v-6b1390d7] {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .footer.checkout-footer .footer-copyright .gmlconsulting a {
+      color: #000;
+    }
+
+
+    .herding-cats-link-wrapper {
+        height: 30px;
+        position: absolute;
+        bottom: 20px;
+        z-index: 400;
+        width: 230px;
+      }
+  
+      .herding-cats-link-wrapper a {
+        color: #fff;
+        display: block;
+        background: #007cff;
+        padding: 5px;
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 3px;
+      }
+  
+      .herding-cats-link-wrapper.german {
+        width: 290px;
+      }
+  
+      .herding-cats-link-wrapper a:hover {
+        color: #fff;
+      }
+  
+      @media (max-width: 991px) {
+        .herding-cats-link-wrapper {
+          left: 50%;
+          transform: translateX(-50%);
+        }
+  
+        .herding-cats-link-wrapper.german {
+          width: 220px;
+        }
+  
+        .herding-cats-link-wrapper.german a {
+          font-size: 14px;
+        }
+      }
+  
+      .larger-offer-discount-text {
+        font-size: 26px;
+        color: #fff;
+      }
+  
+      .larger-offer-discount-text.line-2 {
+        font-size: 18px;
+        margin-top: 10px;
+        display: block;
+      }
+  
+      @media (max-width: 767px) {
+  
+        .larger-offer-discount-text,
+        .larger-offer-discount-text.line-2 {
+          font-size: 18px !important;
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Handling the responsiveness */
+@media only screen and (max-width: 768px) {
+    .content {
+        width: 90%;
+        margin: 80px auto 0;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content h3 {
+        font-size: 0.9rem;
+        line-height: 24px;
+    }
+
+    .slider-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    #slider-button {
+        margin-left: 0; 
+        margin-top: 10px; 
+    }
+
+    .special-container{
+        width: 100%;
+    }
+
+    .special-container h2{
+        font-size: 1.7rem;
+    }
+
+    
+    .learning-item {
+        width: 100%; 
+      }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .learning-item {
+      width: 100%; 
+    }
+  }

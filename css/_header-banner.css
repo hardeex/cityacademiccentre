@@ -1,0 +1,1167 @@
+.cycle-slide-active {
+    visibility: visible !important
+}
+
+.lower-header-banner {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative
+}
+
+.lower-header-banner .banner-breadcrumbs {
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 35px;
+    padding: 0
+}
+
+.lower-header-banner .banner-breadcrumbs li {
+    color: #424242;
+    display: inline-block;
+    font-weight: 400
+}
+
+.lower-header-banner .banner-breadcrumbs li:after {
+    content: "/";
+    display: inline-block;
+    margin: 0 5px
+}
+
+.lower-header-banner .banner-breadcrumbs li.active {
+    color: #009aff;
+    font-weight: 700
+}
+
+.lower-header-banner .banner-breadcrumbs li.active:after {
+    content: none
+}
+
+.lower-header-banner .banner-breadcrumbs li a {
+    color: inherit
+}
+
+.lower-header-banner.standalone-image-banner {
+    background: #f7f7f7;
+    border-bottom: 11px solid #57cae9;
+    padding: 30px 0;
+    position: relative
+}
+
+.lower-header-banner.standalone-image-banner .banner-standalone-image {
+    bottom: -11px;
+    position: absolute
+}
+
+.lower-header-banner.standalone-image-banner.training-banner {
+    padding: 20px 0 60px
+}
+
+.lower-header-banner.standalone-image-banner.training-banner .banner-standalone-image {
+    height: 320px;
+    left: 55%
+}
+
+.lower-header-banner.standalone-image-banner.training-banner .banner-item .banner-text {
+    color: #424242
+}
+
+.lower-header-banner.standalone-image-banner.training-banner.training-inner .banner-standalone-image {
+    left: 41%
+}
+
+.lower-header-banner.standalone-image-banner .banner-item .banner-text {
+    color: #3b4455;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3
+}
+
+.lower-header-banner.standalone-image-banner .banner-item .banner-text .banner-text-dynamic-content {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-top: 30px
+}
+
+.lower-header-banner.standalone-image-banner .banner-item .banner-text .banner-text-subtitle {
+    display: block;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-top: 30px
+}
+
+.lower-header-banner.standalone-image-banner .banner-item .banner-text .enhance-your-career {
+    color: #3b4455;
+    font-size: 12px
+}
+
+.lower-header-banner.standalone-image-banner .banner-item .banner-text .enhance-your-career strong {
+    color: #009aff;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.lower-header-banner.standalone-image-banner .banner-item .banner-text .enhance-your-career .price {
+    color: #009aff;
+    font-size: 40px
+}
+
+.lower-header-banner.standalone-image-banner .banner-item .banner-text .enhance-your-career .was-price {
+    color: #636363;
+    font-size: 22px;
+    margin-right: 5px;
+    text-decoration: line-through
+}
+
+.lower-header-banner.standalone-image-banner .feefo-stars {
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 0;
+    padding: 0 5px
+}
+
+.lower-header-banner.standalone-image-banner .feefo-stars .review-star {
+    color: #fed216
+}
+
+.lower-header-banner.standalone-image-banner .feefo-avg {
+    color: #000;
+    display: inline-block;
+    font-size: 14px
+}
+
+.lower-header-banner.standalone-image-banner .banner-featured-products .banner-featured-products-title {
+    color: #000;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+
+.lower-header-banner.standalone-image-banner .banner-featured-products .course-block {
+    background: #fff;
+    border: 1px solid #a5a5a5;
+    border-radius: 3px;
+    height: 100%;
+    padding: 20px
+}
+
+.lower-header-banner.standalone-image-banner .banner-featured-products .course-block .course-block-title {
+    color: #313b4d;
+    font-weight: 700;
+    margin-bottom: 25px
+}
+
+.lower-header-banner.standalone-image-banner .banner-featured-products .course-block .course-block-reviews {
+    display: block;
+    font-size: 14px
+}
+
+.lower-header-banner.standalone-image-banner .banner-featured-products .course-block .course-block-reviews .review-star {
+    color: #fed216
+}
+
+.lower-header-banner.standalone-image-banner .banner-featured-products .course-block .course-block-reviews .review-average {
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 8px
+}
+
+.lower-header-banner.standalone-image-banner .banner-featured-products .course-block .course-block-price {
+    color: #6c6c6c
+}
+
+.lower-header-banner.standalone-image-banner .banner-featured-products .course-block .course-block-price .course-block-price-was {
+    font-size: 14px
+}
+
+.lower-header-banner.standalone-image-banner .banner-featured-products .course-block .course-block-price .course-block-price-was .course-block-price-value {
+    color: inherit;
+    font-size: 20px
+}
+
+.lower-header-banner.standalone-image-banner .banner-featured-products .course-block .course-block-price .course-block-price-value {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700
+}
+
+.lower-header-banner.standalone-image-banner .banner-featured-products .course-block .course-block-price .course-block-price-tax-postfix {
+    font-size: 16px
+}
+
+.lower-header-banner.small-banner .lower-header-banner-content {
+    padding: 135px 0 25px
+}
+
+.lower-header-banner.small-banner .lower-header-banner-content .main-banner-text {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 0 2px 8px #000
+}
+
+.lower-header-banner.training-banner .lower-header-banner-content {
+    padding: 60px 0 45px
+}
+
+.lower-header-banner.training-banner .lower-header-banner-content .quick-links {
+    color: #fff;
+    font-weight: 700
+}
+
+.lower-header-banner.training-banner .lower-header-banner-content .quick-links .quick-links-title {
+    font-size: 30px;
+    margin-bottom: 5px
+}
+
+.lower-header-banner.training-banner .lower-header-banner-content .quick-links .quick-links-list {
+    color: #fff;
+    font-size: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.lower-header-banner.training-banner .lower-header-banner-content .quick-links .quick-links-list li {
+    padding: 5px 0 5px 15px;
+    position: relative
+}
+
+.lower-header-banner.training-banner .lower-header-banner-content .quick-links .quick-links-list li:before {
+    content: "\f054";
+    font-family: FontAwesome;
+    font-size: 16px;
+    left: 0;
+    position: absolute;
+    top: 4px
+}
+
+.lower-header-banner.training-banner .lower-header-banner-content .quick-links .quick-links-list li a {
+    color: #fff;
+    text-decoration: underline
+}
+
+.lower-header-banner.training-banner .lower-header-banner-content .main-banner-text p {
+    color: #fff;
+    font-size: 16px;
+    margin: 0
+}
+
+.lower-header-banner.training-banner .lower-header-banner-content .banner-share-link-wrapper {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end
+}
+
+.lower-header-banner.training-banner .lower-header-banner-content .banner-share-link-wrapper .banner-share-link-text {
+    font-size: 16px
+}
+
+.lower-header-banner.training-banner .lower-header-banner-content .banner-share-link-wrapper .banner-share-link {
+    font-size: 20px;
+    padding: 0 12px
+}
+
+.lower-header-banner.training-banner .lower-header-banner-content .banner-actions .banner-action-link {
+    margin-bottom: 5px
+}
+
+.lower-header-banner.has-video {
+    overflow: hidden;
+    position: relative
+}
+
+.lower-header-banner.has-video .lower-header-banner-video {
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%)
+}
+
+.lower-header-banner.image-banner.banner-hide-on-load .cycle-slideshow {
+    display: none
+}
+
+.lower-header-banner.image-banner a {
+    display: block;
+    width: 100%
+}
+
+.lower-header-banner.image-banner .image-banner-item {
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 475px;
+    width: 100%
+}
+
+.lower-header-banner.standard-banner.right-text .lower-header-banner-content {
+    padding: 156px 0 249px
+}
+
+.lower-header-banner.standard-banner.right-text .lower-header-banner-content .main-banner-text {
+    text-align: right
+}
+
+.lower-header-banner.standard-banner.right-text .lower-header-banner-content .main-banner-text .banner-header {
+    font-size: 36px;
+    margin-bottom: -4px
+}
+
+.lower-header-banner.standard-banner.right-text .lower-header-banner-content .main-banner-text .banner-sub-text {
+    color: #0b4b7a;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px
+}
+
+.lower-header-banner.standard-banner.right-text .lower-header-banner-content .main-banner-text .banner-button-container {
+    position: relative
+}
+
+.lower-header-banner.standard-banner.right-text .lower-header-banner-content .main-banner-text .banner-button-container .banner-button {
+    background: #8dc53e;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: 15px;
+    min-height: 44px;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all .3s;
+    width: 55%;
+    z-index: 100
+}
+
+.lower-header-banner.standard-banner .lower-header-banner-content {
+    padding: 245px 0 165px
+}
+
+.lower-header-banner.standard-banner .lower-header-banner-content .main-banner-text {
+    font-family: Roboto, sans-serif;
+    text-align: center
+}
+
+.lower-header-banner.standard-banner .lower-header-banner-content .main-banner-text p {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-shadow: -1px 2px 6px #000
+}
+
+.lower-header-banner.standard-banner .lower-header-banner-content .main-banner-text p.no-margin {
+    margin: 0
+}
+
+.lower-header-banner.standard-banner .lower-header-banner-content .main-banner-text .link-button {
+    background: #8dc53e;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 40px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.lower-header-banner.standard-banner .lower-header-banner-content .main-banner-text a {
+    font-family: Roboto, sans-serif
+}
+
+.lower-header-banner.recruitment .lower-header-banner-content {
+    padding: 145px 0 195px
+}
+
+.lower-header-banner.ilx-player-banner {
+    background-position: 50% !important
+}
+
+.lower-header-banner.ilx-player-banner .lower-header-banner-content {
+    padding: 185px 0 75px
+}
+
+.lower-header-banner.ilx-player-banner .lower-header-banner-content .ilx-player-banner-section .ilx-player-banner-title {
+    color: #404449;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    text-align: left
+}
+
+.lower-header-banner.ilx-player-banner .lower-header-banner-content .ilx-player-banner-section .ilx-player-store-image {
+    display: block;
+    margin: 0 0 10px;
+    max-width: 250px;
+    width: 100%
+}
+
+.lower-header-banner.software .lower-header-banner-content {
+    min-height: 460px;
+    padding: 240px 0 120px
+}
+
+.lower-header-banner.software .lower-header-banner-content .software-banner-title {
+    color: #fff;
+    display: block;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: -1px 2px 6px #000
+}
+
+.lower-header-banner.software .lower-header-banner-content ul {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    list-style: none;
+    margin: 0 0 10px;
+    padding: 0;
+    text-shadow: -1px 2px 6px #000
+}
+
+.lower-header-banner.meisterplan .lower-header-banner-content {
+    height: 460px;
+    padding: 135px 0 0;
+    position: relative
+}
+
+.lower-header-banner.meisterplan .lower-header-banner-content .corner-transparent-box {
+    background: rgba(0, 0, 0, .5);
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    padding: 10px 5px;
+    position: absolute;
+    width: 555px
+}
+
+.lower-header-banner.meisterplan .lower-header-banner-content .corner-transparent-box:before {
+    background: rgba(0, 0, 0, .5);
+    content: "";
+    height: 100%;
+    left: -4000px;
+    position: absolute;
+    top: 0;
+    width: 4000px
+}
+
+.lower-header-banner.meisterplan .lower-header-banner-content .corner-transparent-box .corner-transparent-box-title {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0 0 5px;
+    text-shadow: 0 3px 5px #000
+}
+
+.lower-header-banner.meisterplan .lower-header-banner-content .corner-transparent-box .corner-transparent-box-content p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 1.8;
+    margin: 0;
+    text-shadow: 0 3px 5px #000
+}
+
+.lower-header-banner.meisterplan .lower-header-banner-content .free-trial-image-wrapper {
+    margin-top: -65px;
+    position: absolute;
+    right: 0;
+    top: 50%
+}
+
+.lower-header-banner.meisterplan .lower-header-banner-content .free-trial-image-wrapper img {
+    display: block;
+    max-width: 100%
+}
+
+.lower-header-banner.larger-title .lower-header-banner-content .main-banner-text p {
+    font-size: 42px
+}
+
+.lower-header-banner.podcasts .lower-header-banner-content .main-banner-text p {
+    font-size: 60px
+}
+
+.lower-header-banner .lower-header-banner-overlay {
+    background: hsla(0, 0%, 100%, .6);
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 60%;
+    z-index: 0
+}
+
+.lower-header-banner .lower-header-banner-overlay:before {
+    border-right: 510px solid hsla(0, 0%, 100%, .6);
+    border-top: 650px solid transparent;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    width: 50%
+}
+
+.lower-header-banner .lower-header-banner-overlay.small {
+    width: 35%
+}
+
+.lower-header-banner .lower-header-banner-overlay.small:before {
+    border-top: 900px solid transparent
+}
+
+.lower-header-banner .lower-header-banner-content {
+    padding: 135px 0 75px
+}
+
+.lower-header-banner .lower-header-banner-content .guaranteed-pass-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%
+}
+
+.lower-header-banner .lower-header-banner-content .course-feefo-rating {
+    display: block;
+    max-width: 100%
+}
+
+.lower-header-banner .lower-header-banner-content .course-logo-wrapper {
+    margin-bottom: 10px
+}
+
+.lower-header-banner .lower-header-banner-content .course-logo-wrapper img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%
+}
+
+.lower-header-banner .lower-header-banner-content .course-outline-title {
+    color: #433a7d;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 30px
+}
+
+.lower-header-banner .lower-header-banner-content .course-outline-title.quick-links {
+    margin: 0 0 10px;
+    text-align: right
+}
+
+.lower-header-banner .lower-header-banner-content .course-outline-links a {
+    color: #55595d;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 2px 0;
+    text-align: right
+}
+
+.lower-header-banner .lower-header-banner-content .course-outline-links .fa {
+    font-size: 12px;
+    position: relative;
+    top: -1px
+}
+
+.lower-header-banner .lower-header-banner-content .course-outline-details-table {
+    color: #404449;
+    display: table;
+    width: 100%
+}
+
+.lower-header-banner .lower-header-banner-content .course-outline-details-table .course-outline-details-table-row {
+    display: table-row;
+    width: 100%
+}
+
+.lower-header-banner .lower-header-banner-content .course-outline-details-table .course-outline-details-table-row .column-left,
+.lower-header-banner .lower-header-banner-content .course-outline-details-table .course-outline-details-table-row .column-right {
+    display: table-cell;
+    font-size: 17px;
+    padding: 2px 0;
+    vertical-align: top
+}
+
+.lower-header-banner .lower-header-banner-content .course-outline-details-table .course-outline-details-table-row .column-left p,
+.lower-header-banner .lower-header-banner-content .course-outline-details-table .course-outline-details-table-row .column-right p {
+    margin: 0
+}
+
+.lower-header-banner .lower-header-banner-content .course-outline-details-table .course-outline-details-table-row .column-left {
+    font-weight: 700;
+    width: 40%
+}
+
+.lower-header-banner .lower-header-banner-content .course-outline-details-table .course-outline-details-table-row .column-right {
+    width: 60px
+}
+
+.lower-header-banner .lower-header-banner-content .course-feefo-rating {
+    margin-top: 20px
+}
+
+.lower-header-banner .lower-header-banner-content .panel-price-options {
+    background: #433a7d;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 10px
+}
+
+.lower-header-banner .lower-header-banner-content .panel-price-options .panel-price-prices {
+    margin: 0 auto;
+    width: 70%
+}
+
+.lower-header-banner .lower-header-banner-content .panel-price-options .panel-price-prices .panel-price-from {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px
+}
+
+.lower-header-banner .lower-header-banner-content .panel-price-options .panel-price-prices .panel-price {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: .5
+}
+
+.lower-header-banner .lower-header-banner-content .panel-price-options .panel-price-prices .panel-price .panel-price-tax-postfix {
+    font-size: 20px;
+    font-weight: 400
+}
+
+.lower-header-banner .lower-header-banner-content .course-date-dropdown {
+    background: #515559;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 40px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    width: 100%
+}
+
+.lower-header-banner .lower-header-banner-content .course-date-dropdown option {
+    font-size: 16px;
+    text-transform: none
+}
+
+.lower-header-banner .lower-header-banner-content .header-banner-link {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%
+}
+
+.lower-header-banner .lower-header-banner-content .header-banner-link.buy {
+    background: #8dc53e
+}
+
+.lower-header-banner .lower-header-banner-content .header-banner-link.enquire {
+    background: #027ac2;
+    margin-bottom: 0
+}
+
+.lower-header-banner .lower-header-banner-content .header-banner-link.blue {
+    background: #027ac2
+}
+
+.lower-header-banner .lower-header-banner-content .header-banner-link.call-us-now {
+    background: #8dc53e;
+    line-height: 18px;
+    padding: 25px 0
+}
+
+.lower-header-banner .lower-header-banner-content .header-banner-link.call-us-now p {
+    color: #3c5510;
+    font-size: 22px;
+    margin-bottom: 0
+}
+
+.lower-header-banner .lower-header-banner-content .header-banner-link.call-us-now .number {
+    font-size: 18px
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper {
+    bottom: 0;
+    left: 0;
+    position: relative;
+    position: absolute;
+    width: 100%;
+    z-index: 150
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links {
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links .header-lower-banner-section-link {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex: 1;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    justify-content: center;
+    min-height: 43px;
+    padding: 5px;
+    text-align: center
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links .header-lower-banner-section-link h1,
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links .header-lower-banner-section-link h2,
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links .header-lower-banner-section-link h3 {
+    color: #fff;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links .header-lower-banner-section-link.courses {
+    background: rgba(125, 196, 25, .7)
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links .header-lower-banner-section-link.downloads {
+    background: rgba(87, 202, 233, .7)
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links .header-lower-banner-section-link.locations {
+    background: rgba(18, 60, 100, .7)
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper {
+    background: rgba(64, 68, 73, .8);
+    padding: 10px 0
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper.home .input-column {
+    padding-right: 0
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper.home .submit-column {
+    padding-left: 0
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper.home .header-lower-banner-search {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper.home .header-lower-banner-search-submit {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-list {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 100%
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-list li {
+    color: #fff;
+    display: inline-block;
+    padding: 0 15px;
+    position: relative
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-list li:after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-list li:first-child {
+    padding: 0 15px 0 0
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-list li:last-child {
+    padding: 0 0 0 15px
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-list li:last-child:after {
+    content: none
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-search-label {
+    color: #fff;
+    display: table-cell;
+    font-size: 19px;
+    height: 43px;
+    margin: 0;
+    vertical-align: middle
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-search {
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    height: 43px;
+    padding: 5px 40px;
+    width: 100%
+}
+
+.lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-search-submit {
+    background: #8dc53e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .lower-header-banner.standalone-image-banner.home-banner .banner-item .banner-text .banner-text-subtitle {
+        font-size: 16px
+    }
+
+    .lower-header-banner.image-banner .image-banner-item {
+        height: 375px
+    }
+
+    .lower-header-banner .lower-header-banner-content .course-feefo-rating,
+    .lower-header-banner .lower-header-banner-content .guaranteed-pass-image {
+        display: inline-block
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-search,
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-search-label,
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-search-submit {
+        height: 53px
+    }
+}
+
+@media (max-width:991px) {
+
+    .lower-header-banner.standalone-image-banner .banner-item .banner-text .banner-text-dynamic-content,
+    .lower-header-banner.standalone-image-banner .feefo-stars {
+        margin-top: 10px
+    }
+
+    .lower-header-banner.standalone-image-banner .banner-featured-products .banner-featured-products-title {
+        margin-top: 30px
+    }
+
+    .lower-header-banner.training-banner .lower-header-banner-content {
+        padding: 110px 0 25px
+    }
+
+    .lower-header-banner.standard-banner.right-text .lower-header-banner-content {
+        padding: 156px 0 339px
+    }
+
+    .lower-header-banner.recruitment .lower-header-banner-content {
+        padding: 125px 0 295px
+    }
+
+    .lower-header-banner .lower-header-banner-content .course-outline-title.quick-links {
+        text-align: left
+    }
+
+    .lower-header-banner.has-video .lower-header-banner-video {
+        height: 100%
+    }
+
+    .lower-header-banner.larger-title .lower-header-banner-content .main-banner-text p {
+        font-size: 32px
+    }
+
+    .lower-header-banner.podcasts .lower-header-banner-content .main-banner-text p {
+        font-size: 42px
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .lower-header-banner.image-banner .image-banner-item {
+        height: 385px
+    }
+
+    .lower-header-banner.meisterplan .lower-header-banner-content .corner-transparent-box {
+        width: 395px
+    }
+
+    .lower-header-banner.software .lower-header-banner-content {
+        min-height: auto;
+        padding: 180px 0 60px
+    }
+
+    .lower-header-banner .lower-header-banner-overlay {
+        width: 100%
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-search {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        padding: 5px 10px
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-search-submit {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .input-column {
+        padding-right: 0
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .submit-column {
+        padding-left: 0
+    }
+
+    .lower-header-banner .lower-header-banner-content .course-feefo-rating {
+        display: inline-block
+    }
+
+    .lower-header-banner .lower-header-banner-content .guaranteed-pass-image {
+        display: inline-block;
+        max-width: 100px
+    }
+
+    .lower-header-banner .lower-header-banner-content .course-outline-links a {
+        text-align: left
+    }
+}
+
+@media (max-width:767px) {
+    .lower-header-banner.standalone-image-banner .banner-featured-products .course-block {
+        padding: 10px
+    }
+
+    .lower-header-banner.standalone-image-banner .banner-featured-products .course-block .course-block-price .course-block-price-value {
+        font-size: 18px
+    }
+
+    .lower-header-banner.training-banner .lower-header-banner-content .banner-share-link-wrapper,
+    .lower-header-banner.training-banner .lower-header-banner-content .quick-links {
+        display: none
+    }
+
+    .lower-header-banner.training-banner .lower-header-banner-content .quick-links .quick-links-list {
+        margin-bottom: 15px
+    }
+
+    .lower-header-banner.small-banner .lower-header-banner-content .main-banner-text {
+        font-size: 20px
+    }
+
+    .lower-header-banner.image-banner .cycle-slideshow {
+        display: none
+    }
+
+    .lower-header-banner.image-banner .image-banner-item {
+        background: none;
+        height: 320px
+    }
+
+    .lower-header-banner.image-banner .header-lower-banner-bottom-wrapper {
+        position: relative
+    }
+
+    .lower-header-banner.standard-banner.right-text .lower-header-banner-overlay.small {
+        width: 100%
+    }
+
+    .lower-header-banner.standard-banner.right-text .lower-header-banner-content {
+        padding: 156px 0 139px
+    }
+
+    .lower-header-banner.standard-banner .lower-header-banner-content {
+        padding: 145px 0 135px
+    }
+
+    .lower-header-banner.standard-banner .lower-header-banner-content .main-banner-text p {
+        font-size: 24px
+    }
+
+    .lower-header-banner.standard-banner .lower-header-banner-content .main-banner-text .link-button {
+        padding: 10px
+    }
+
+    .lower-header-banner.standard-banner.no-lower-section .lower-header-banner-content {
+        padding: 155px 0 55px
+    }
+
+    .lower-header-banner.recruitment .lower-header-banner-content {
+        min-height: 1px;
+        padding: 165px 0 115px;
+        transition: min-height .3s
+    }
+
+    .lower-header-banner.recruitment .lower-header-banner-content.advanced-options-open {
+        min-height: 660px;
+        transition: min-height .3s
+    }
+
+    .lower-header-banner.ilx-player-banner .lower-header-banner-content .ilx-player-banner-section .ilx-player-banner-title {
+        color: #fff;
+        text-shadow: 0 0 5px #000
+    }
+
+    .lower-header-banner.software .lower-header-banner-content {
+        min-height: auto;
+        padding: 135px 0 25px
+    }
+
+    .lower-header-banner.software .lower-header-banner-content .software-banner-title {
+        font-size: 32px
+    }
+
+    .lower-header-banner.software .lower-header-banner-content ul {
+        font-size: 18px
+    }
+
+    .lower-header-banner.meisterplan .lower-header-banner-content {
+        height: auto;
+        padding: 125px 0 0
+    }
+
+    .lower-header-banner.meisterplan .lower-header-banner-content .free-trial-image-wrapper {
+        margin: 0;
+        position: static
+    }
+
+    .lower-header-banner.meisterplan .lower-header-banner-content .free-trial-image-wrapper img {
+        margin: 0 auto
+    }
+
+    .lower-header-banner.meisterplan .lower-header-banner-content .corner-transparent-box {
+        position: relative;
+        width: 100%
+    }
+
+    .lower-header-banner.meisterplan .lower-header-banner-content .corner-transparent-box:after {
+        background: rgba(0, 0, 0, .5);
+        content: "";
+        height: 100%;
+        position: absolute;
+        right: -4000px;
+        top: 0;
+        width: 4000px
+    }
+
+    .lower-header-banner.podcasts .lower-header-banner-content .main-banner-text p {
+        font-size: 34px
+    }
+
+    .lower-header-banner .lower-header-banner-overlay {
+        width: 100%
+    }
+
+    .lower-header-banner .lower-header-banner-content {
+        padding: 135px 0 115px
+    }
+
+    .lower-header-banner .lower-header-banner-content .guaranteed-pass-image {
+        margin: 10px 0
+    }
+
+    .lower-header-banner .lower-header-banner-content .panel-price-options {
+        margin-top: 10px
+    }
+
+    .lower-header-banner .lower-header-banner-content .panel-price-options .panel-price-prices {
+        text-align: center;
+        width: 100%
+    }
+
+    .lower-header-banner .lower-header-banner-content .panel-price-options .panel-price-prices .panel-price-from {
+        display: inline-block;
+        margin-bottom: 0
+    }
+
+    .lower-header-banner .lower-header-banner-content .panel-price-options .panel-price-prices .panel-price {
+        line-height: 1
+    }
+
+    .lower-header-banner .lower-header-banner-content .course-outline-links {
+        margin-bottom: 20px
+    }
+
+    .lower-header-banner .lower-header-banner-content .course-outline-links a {
+        text-align: left
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links {
+        flex-direction: column
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links .header-lower-banner-section-link {
+        font-size: 20px;
+        padding: 5px
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links .header-lower-banner-section-link.courses {
+        background: #7dc419
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links .header-lower-banner-section-link.downloads {
+        background: #57cae9
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-section-links .header-lower-banner-section-link.locations {
+        background: #123c64
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper.home .header-lower-banner-search {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper.home .header-lower-banner-search-submit {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper.home .input-column,
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper.home .submit-column {
+        padding: 0 15px
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-search {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        padding: 5px 10px;
+        text-align: center
+    }
+
+    .lower-header-banner .header-lower-banner-bottom-wrapper .header-lower-banner-search-wrapper .header-lower-banner-search-submit {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0
+    }
+}
