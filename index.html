@@ -30,6 +30,13 @@
   <link rel="stylesheet" href="css/_home.css" media="print" onload="this.media='all'" />
 
 
+  <!-- importing swiper cdn to the project-->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+
 <!---Linking JavaScript files-->
 <script src="js/jquery-3.1.1.min.js" defer></script>
 <script src="js/matchHeight.min.js" defer=""></script>
@@ -92,6 +99,7 @@
                 <a href="https://cityacademiccentre.com/">
                   <img src="images/cityacademicimage.png" alt="City Academic logo" class="header-logo" />
                 </a>
+                
                 <div class="header-contact-details d-none d-md-block mt-3">
                   <span class="need-assistance">
                     <i class="fa fa-phone"></i>
@@ -100,6 +108,8 @@
                   <a href="mailto:enquiries@cityacademiccentre.com">enquirires@cityacademiccentre.com</a>
                 </div>
               </div>
+
+            <!---Start the top header nav-->
               <div class="mobile-header-icons d-inline-flex d-lg-none justify-content-between ml-3">
                 <div class="header-login-link-wrapper mr-2 mr-lg-0">
                   <a class="login-link d-flex flex-lg-row flex-column align-items-center"
@@ -108,13 +118,28 @@
                     <span class="d-block d-lg-inline mobile-header-icon-text">Login</span>
                   </a>
                 </div>
+
+                <div class="header-login-link-wrapper mr-2 mr-lg-0">
+                  <a class="login-link d-flex flex-lg-row flex-column align-items-center"
+                    href="https://cityacademiccentre.com/student-registration/">
+                    <i class="fa fa-user-circle-o mr-lg-2"></i>
+                    <span class="d-block d-lg-inline mobile-header-icon-text">Register</span>
+                  </a>
+                </div>
+
+                <div class="header-action-item">
+                
+              </div>
+
                 <div class="header-basket-link-wrapper">
+                  <!----
                   <a class="header-basket-link d-flex d-lg-block flex-column align-items-center" href="#">
                     <i class="fa fa-shopping-cart"></i>
                     <span class="mobile-header-icon-text d-block d-lg-none">
                       Basket
                     </span>
                   </a>
+                  --->
                   <div class="header-basket-box">
                     <div class="triangle-top">
                       <div class="inner-triangle"></div>
@@ -151,6 +176,16 @@
               <div class="header-action-item">
                 <div class="header-login-link-wrapper mr-2 mr-lg-0">
                   <a class="login-link d-flex flex-lg-row flex-column align-items-center"
+                    href="https://cityacademiccentre.com/student-registration">
+                    <i class="fa fa-user-circle-o mr-lg-2"></i>
+                    <span class="d-block d-lg-inline mobile-header-icon-text">Register</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="header-action-item">
+                <div class="header-login-link-wrapper mr-2 mr-lg-0">
+                  <a class="login-link d-flex flex-lg-row flex-column align-items-center"
                     href="https://cityacademiccentre.com/tutor-login">
                     <i class="fa fa-user-circle-o mr-lg-2"></i>
                     <span class="d-block d-lg-inline mobile-header-icon-text">Login</span>
@@ -158,36 +193,7 @@
                 </div>
               </div>
 
-              <div class="header-action-item">
-                <div class="header-basket-link-wrapper">
-                  <a class="header-basket-link d-flex d-lg-block flex-column align-items-center" href="#">
-                    <i class="fa fa-shopping-cart"></i>
-                    <span class="mobile-header-icon-text d-block d-lg-none">
-                      Basket
-                    </span>
-                  </a>
-                  <div class="header-basket-box">
-                    <div class="triangle-top">
-                      <div class="inner-triangle"></div>
-                    </div>
-                    <div class="basket-box-top">
-                      <div class="basket-box-top-title">
-                        Basket <span>0 News & Blog</span>
-                      </div>
-                      <div class="basket-box-close">
-                        <div class="fa fa-close"></div>
-                      </div>
-                    </div>
-                    <div class="basket-box-items"></div>
-                    <div class="basket-box-link">
-                      <a href="https://www.cityacademiccentre.com/cart"
-                        class="btn-new btn-solid-green btn-rounded d-block">
-                        Basket
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
             </div>
 
 
@@ -198,7 +204,7 @@
                 
                 <div class="navigation-action-buttons">
                   <a
-                    href="https://www.cityacademiccentre.com/training-free-quote-request"
+                    href="https://cityacademiccentre.com/training-free-quote-request/"
                     title="Request Training Quote for free"
                     class="navigation-action-button get-quote smaller" 
                     style="background-color: rgb(23, 154, 174);">
@@ -232,7 +238,7 @@
                         </h2>
                         <li class="navigation-submenu-section-item">
                           <a
-                            href="https://www.cityacademicentre.com/prince2-foundation" >
+                            href="https://www.cityacademicentre.com/" >
                             Foundation
                           </a>
                         </li>
@@ -248,45 +254,16 @@
                           >
                             Foundation &amp; Practitioner
                           </a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"   >
-                            Fasttrack Foundation and Practitioner 
-                          </a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"          >
-                            Foundation (Engels)
-                          </a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"       >
-                            Practitioner (Engels)
-                          </a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"            >
-                            Foundation &amp; Practitioner (Engels)
-                          </a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"                    >
-                            Practitioner (Bridging from PRINCE2 6th Edition)                        
-                          </a>
-                        </li>
-                      </ul>
+                        </li>                       
                     </div>
+
+
                     <div class="col-md-auto mt-4">
                       <ul class="navigation-submenu-section">
                         <h2 class="navigation-submenu-title mt-3 mt-lg-0">
                           <a
                             href="#"         >
-                            GDPR - FOUNDATION PRACTITIONER®
+                           General Data Protection Regulation (GDPR)
                           </a>
                         </h2>
                         <li class="navigation-submenu-section-item">
@@ -304,30 +281,13 @@
                         <li class="navigation-submenu-section-item">
                           <a
                             href="#"              >
-                            Foundation &amp; Practitioner
+                           Regulation Awareness
                           </a>
                         </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"                    >
-                            6th Edition Foundation (Engels)
-                          </a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"              >
-                            6th Edition Practitioner (Engels)
-                          </a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"                 >
-                            6th Edition Foundation &amp; Practitioner
-                            (Engels)
-                          </a>
-                        </li>
+                                                                     
                       </ul>
                     </div>
+
                     <div class="col-md-auto mt-4">
                       <ul class="navigation-submenu-section">
                         <h2 class="navigation-submenu-title mt-3 mt-lg-0">
@@ -339,45 +299,21 @@
                         <li class="navigation-submenu-section-item">
                           <a
                             href="#"                     >
-                            PRINCE2 Agile en PRINCE2 Plus-pakket
+                            Green Belt
                           </a>
                         </li>
                         <li class="navigation-submenu-section-item">
                           <a
                             href="#"                  >
-                            Foundation &amp; Practitioner
+                             Yellow Belt
                           </a>
                         </li>
                         <li class="navigation-submenu-section-item">
                           <a
                             href="#"                        >
-                            Foundation
+                           Yellow &amp; Green Belts
                           </a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"                  >
-                            Practitioner
-                          </a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"                          >
-                            Foundation &amp; Practitioner (Engels)
-                          </a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"                          >
-                            PRINCE2 Agile en PRINCE2 Plus-pakket (Engels)
-                          </a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"                          >
-                            Practitioner (NL) (Engels)
-                          </a>
-                        </li>
+                        </li>                                             
                       </ul>
                     </div>
                   </div>
@@ -390,7 +326,7 @@
                         <ul>
                           <li class="menu-item">
                             <a
-                              href="https://www.cityacademicentre.com/downloads"
+                              href="https://www.cityacademicentre.com/resources"
                               class="navigation-submenu-title"                        >
                               Related Resources
                             </a>
@@ -400,36 +336,39 @@
                                   <li
                                     class="navigation-submenu-section-item"                         >
                                     <a
-                                      href="#"
+                                      href="https://cityacademiccentre.com/news"
                                       target="_blank"                        >
-                                      Bookstore
+                                     Articles
                                     </a>
                                   </li>
                                   <li
                                     class="navigation-submenu-section-item"                           >
                                     <a
-                                      href="https://www.cityacademiccentre.com/free-prince2-information-seminars"                 >
-                                      Training & Seminars
+                                      href="https://www.cityacademiccentre.com/#"                 >
+                                      Free Webinars
                                     </a>
                                   </li>
                                 </ul>
                               </div>
                               <div class="col-md-3">
                                 <ul class="navigation-submenu-section">
-                                  <li
-                                    class="navigation-submenu-section-item"           >
-                                    <a
-                                      href="https://www.cityacademiccentre.com/downloads"                                   >
-                                     Free Downloads
-                                    </a>
-                                  </li>
+                                  
                                   <li
                                     class="navigation-submenu-section-item"                                  >
                                     <a
                                       href="#"                                    >
-                                      Take<sup>2</sup>
+                                      Awarding Bodies
                                     </a>
                                   </li>
+
+                                  <li
+                                  class="navigation-submenu-section-item">
+                                
+                                  <a
+                                    href="https://cityacademiccentre.com/student-registration">                                    
+                                    Get Started
+                                  </a>
+                                </li>
                                 </ul>
                               </div>
 
@@ -439,13 +378,13 @@
                                     class="navigation-submenu-section-item"                                  >
                                     <a
                                       href="#"                                    >
-                                      Virtual Learning
+                                     Learning Styles
                                     </a>
                                   </li>
                                   <li
                                     class="navigation-submenu-section-item"                                  >
                                     <a
-                                      href="#"                                    >
+                                      href="https://cityacademiccentre.com/faq"                                    >
                                        FAQs
                                     </a>
                                   </li>
@@ -456,14 +395,14 @@
                                   <li
                                     class="navigation-submenu-section-item"                                  >
                                     <a
-                                      href="#"                                    >
-                                      PRINCE2-spell
+                                      href="https://cityacademiccentre.com/about"                                    >
+                                     About Us
                                     </a>
                                   </li>
                                   <li
                                     class="navigation-submenu-section-item"                                  >
                                     <a
-                                      href="#"                                    >
+                                      href="https://cityacademiccentre.com/events-information/"                                    >
                                       Events
                                     </a>
                                   </li>
@@ -506,111 +445,39 @@
                         </li>
                         <li class="navigation-submenu-section-item">
                           <a
-                            href="#"
-                            >What is PRINCE2?
+                            href="#">What is PRINCE2?
                           </a>
                           
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a href="#"
-                            >PRINCE2 Casestudies
-                          </a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#"
-                            >PRINCE2 FAQs
-                          </a>
-                          
-                        </li>
+                        </li>                       
                       </ul>
                     </div>
 
 
                     <div class="col-md-auto">
-                      <ul class="navigation-submenu-section">
+                      <ul class="navigation-submenu-section">                                              
                         <li class="navigation-submenu-section-item">
-                          <a href="">
-                            PRINCE2 Methodology
-
-                          </a>
-                          
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a href="">PRINCE2 Methodology</a>
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a href="">PRINCE2 Methodology</a>
+                          <a href="">Why do GDPR Course?</a>
                           
                         </li>
                         <li class="navigation-submenu-section-item">
                           <a
                             href="#">
-                            PRINCE2 Virtual Learning
+                            The relevance of Lean Six Sigma
                         </a>
                           
                         </li>
                       </ul>
                     </div>
                     <div class="col-md-auto">
-                      <ul class="navigation-submenu-section">
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#">
-                            How does PRINCE2 work with the PMBOK guide?
-                        </a>
-                          
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#">
-                            PRINCE2-examenformat
-                        </a>
-                          
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#">
-                            PRINCE2 Consulting
-                        </a>
-                          
-                        </li>
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#">
-                         
-                            PRINCE2 training voor de publieke sector
-                          </a>
-                          
-                        </li>
+                      <ul class="navigation-submenu-section">                                                                                           
                       </ul>
                     </div>
-
-
-                    <div class="col-md-auto">
-                      <ul class="navigation-submenu-section">
-                        <li class="navigation-submenu-section-item">
-                          <a href="#">
-                            Virtuele FAQs
-                        </a>
-                          
-                        </li>
-
-                        <li class="navigation-submenu-section-item">
-                          <a
-                            href="#">
-                          </a>
-                          
-                            News & Blog
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
+                   
                   </div>
 
                   <h2 class="navigation-submenu-title mb-4 mt-3 mt-lg-0">
-                    <a href="#">
-                      Contact
+                    <a href="https://cityacademiccentre/about">
+                      About Us
                     </a>
                   </h2>
 
@@ -621,9 +488,7 @@
                           <li class="menu-item">
                             <a
                               href="#"
-                              class="navigation-submenu-title">
-                            </a>
-                            
+                              class="navigation-submenu-title">                            
                             Related resources
                             </a>
                             <div class="row">
@@ -633,17 +498,16 @@
                                     class="navigation-submenu-section-item">
                                   
                                     <a
-                                      href="#"
+                                      href="https://cityacademiccentre.com/news"
                                       target="_blank">
                                     
-                                     Bookstore
+                                     Articles
                                     </a>
                                   </li>
                                   <li
                                     class="navigation-submenu-section-item"        >
                                     <a
-                                      href="#">
-                                    
+                                      href="https://cityacademiccentre.com/trainings-and-seminars">                                    
                                       Training & Seminars
                                     </a>
                                   </li>
@@ -656,18 +520,15 @@
                                     class="navigation-submenu-section-item">
                                   
                                     <a
-                                      href="#">
-                                    
-                                      Free downloads
+                                      href="https://cityacademiccentre.com/student-registration">                                    
+                                      Get Started
                                     </a>
                                   </li>
                                   <li
-                                    class="navigation-submenu-section-item">
-                                  
-                                  
+                                    class="navigation-submenu-section-item">                                                                    
                                     <a
                                       href="#">                                                                       
-                                      Take<sup>2</sup>
+                                     Awarding Bodies
                                     </a>
                                   </li>
                                 </ul>
@@ -679,16 +540,14 @@
                                     class="navigation-submenu-section-item">
                                   
                                     <a
-                                      href="#">
-                                    
-                                    
-                                    Virtual education
+                                      href="#">                                    
+                                    Learning Styles
                                     </a>
                                   </li>
                                   <li
                                     class="navigation-submenu-section-item"                                  >
                                     <a
-                                      href="#"                                    >
+                                      href="https://cityacademiccentre.com/faq"                                    >
                                       FAQs
                                     </a>
                                   </li>
@@ -699,14 +558,14 @@
                                   <li
                                     class="navigation-submenu-section-item"                                  >
                                     <a
-                                      href="#"                                    >
-                                      PRINCE2-spell
+                                      href="https://cityacademiccentre.com/student-registration"                                    >
+                                      Register for Free
                                     </a>
                                   </li>
                                   <li
                                     class="navigation-submenu-section-item"                                  >
                                     <a
-                                      href="#"                                    >
+                                      href="https://cityacademiccentre.com/events-information/"                                    >
                                       Events
                                     </a>
                                   </li>
@@ -745,7 +604,7 @@
                             <a href="https://cityacademiccentre.com/newsletter">Newsletter</a>
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a href="https://www.prince2.com/uk/case-studies">PRINCE2 Case Studies</a>
+                            <a href="https://cityacademiccentre.com/learning-styles">Availaible Learning Methods</a>
                           </li>
                           <li class="navigation-submenu-section-item">
                             <a href="https://www.cityacademiccentre.com/faq">FAQs</a>
@@ -786,9 +645,7 @@
                           <li class="navigation-submenu-section-item">
                             <a href="https://cityacademiccentre.com/terms-of-service/">Terms of Service</a>
                           </li>
-                          <li class="navigation-submenu-section-item">
-                            <a href="https://www.cityacademiccentre.com/refund_returns">Return and Refund Policy</a>
-                          </li>
+                          
                         </ul>
                       </div>
 
@@ -798,7 +655,7 @@
 
                     <h2 class="navigation-submenu-title mb-4 mt-3 mt-lg-0">
                       <a href="https://www.cityacademiccentre/contact">
-                        Contact
+                        Support
                       </a>
                     </h2>
 
@@ -807,20 +664,20 @@
                         <div class="col-12">
                           <ul>
                             <li class="menu-item">
-                              <a href="https://www.prince2.com/uk/downloads" class="navigation-submenu-title">
+                              <a href="https://cityacademiccentre.com/resources" class="navigation-submenu-title">
                                 Related resources
                               </a>
                               <div class="row">
                                 <div class="col-md-3">
                                   <ul class="navigation-submenu-section">
                                     <li class="navigation-submenu-section-item">
-                                      <a href="https://www.bestpracticebookstore.com/geolocate/uk" target="_blank">
-                                        Bookshop
+                                      <a href="https://cityacademiccentre.com/news" target="_blank">
+                                        Articles
                                       </a>
                                     </li>
                                     <li class="navigation-submenu-section-item">
-                                      <a href="https://www.prince2.com/uk/free-prince2-information-seminars">
-                                        Training Seminars
+                                      <a href="https://cityacademiccentre.com/trainings-and-seminars">
+                                        Training &amp; Seminars
                                       </a>
                                     </li>
                                   </ul>
@@ -828,13 +685,16 @@
                                 <div class="col-md-3">
                                   <ul class="navigation-submenu-section">
                                     <li class="navigation-submenu-section-item">
-                                      <a href="https://www.prince2.com/uk/downloads">
-                                        Free Downloads
+                                      
+                                    </li>
+                                    <li class="navigation-submenu-section-item">
+                                      <a href="#">
+                                        Awarding Bodies
                                       </a>
                                     </li>
                                     <li class="navigation-submenu-section-item">
-                                      <a href="https://www.prince2.com/uk/take2">
-                                        Take<sup>2</sup>
+                                      <a href="https://cityacademiccentre.com/events-information/">
+                                        Events
                                       </a>
                                     </li>
                                   </ul>
@@ -843,30 +703,18 @@
                                 <div class="col-md-3">
                                   <ul class="navigation-submenu-section">
                                     <li class="navigation-submenu-section-item">
-                                      <a href="https://www.prince2.com/nl/virtual-learning">
-                                        Virtual Education
+                                      <a href="https://cityacademiccentre.com/learning-styles">
+                                        Learning Styles
                                       </a>
                                     </li>
                                     <li class="navigation-submenu-section-item">
-                                      <a href="https://www.prince2.com/uk/virtual-faqs">
-                                        Virtual FAQs
+                                      <a href="https://cityacademiccentre.com/faqs">
+                                        FAQs
                                       </a>
                                     </li>
                                   </ul>
                                 </div>
-                                <div class="col-md-3">
-                                  <ul class="navigation-submenu-section">
-                                    <li class="navigation-submenu-section-item">
-                                      <a href="https://www.prince2.com/uk/games">
-                                        PRINCE2- Spell
-                                      </a>
-                                    </li>
-                                    <li class="navigation-submenu-section-item">
-                                      <a href="https://www.prince2.com/uk/free-prince2-information-seminars">
-                                        Events
-                                      </a>
-                                    </li>
-                                  </ul>
+                                <div class="col-md-3">                                 
                                 </div>
                               </div>
                             </li>
@@ -903,53 +751,28 @@
                             </a>
                           </h2>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="https://www.cityacademicentre.com/prince2-foundation" >
-                              Foundation
-                            </a>
+                            
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"  >
-                              Practitioner
-                            </a>
+                            
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"
-                            >
-                              Foundation &amp; Practitioner
-                            </a>
+                           
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"   >
-                              Fasttrack Foundation and Practitioner 
-                            </a>
+                           
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"          >
-                              Foundation (Engels)
-                            </a>
+                           
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"       >
-                              Practitioner (Engels)
-                            </a>
+                           
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"            >
-                              Foundation &amp; Practitioner (Engels)
-                            </a>
+                           
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"                    >
-                              Practitioner (Bridging from PRINCE2 6th Edition)                        
-                            </a>
+                            
                           </li>
                         </ul>
                       </div>
@@ -958,45 +781,26 @@
                           <h2 class="navigation-submenu-title mt-3 mt-lg-0">
                             <a
                               href="#"         >
-                              GDPR - FOUNDATION PRACTITIONER®
+                              General Data Protection Regulations
                             </a>
                           </h2>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"     >
-                              Foundation
-                            </a>
+                           
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"        >
-                              Practitioner
-                            </a>
+                           
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"              >
-                              Foundation &amp; Practitioner
-                            </a>
+                           
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"                    >
-                              6th Edition Foundation (Engels)
-                            </a>
+                           
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"              >
-                              6th Edition Practitioner (Engels)
-                            </a>
+                           
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"                 >
-                              6th Edition Foundation &amp; Practitioner
-                              (Engels)
-                            </a>
+                           
                           </li>
                         </ul>
                       </div>
@@ -1009,46 +813,25 @@
                             </a>
                           </h2>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"                     >
-                              PRINCE2 Agile en PRINCE2 Plus-pakket
-                            </a>
+                            
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"                  >
-                              Foundation &amp; Practitioner
-                            </a>
+                           
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"                        >
-                              Foundation
-                            </a>
+                            
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"                  >
-                              Practitioner
-                            </a>
+                            
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"                          >
-                              Foundation &amp; Practitioner (Engels)
-                            </a>
+                           
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"                          >
-                              PRINCE2 Agile en PRINCE2 Plus-pakket (Engels)
-                            </a>
+                            
                           </li>
                           <li class="navigation-submenu-section-item">
-                            <a
-                              href="#"                          >
-                              Practitioner (NL) (Engels)
-                            </a>
+                           
                           </li>
                         </ul>
                       </div>
@@ -1062,7 +845,7 @@
                           <ul>
                             <li class="menu-item">
                               <a
-                                href="https://www.cityacademicentre.com/downloads"
+                                href="https://www.cityacademicentre.com/resources"
                                 class="navigation-submenu-title"                        >
                                 Related Resources
                               </a>
@@ -1072,16 +855,16 @@
                                     <li
                                       class="navigation-submenu-section-item"                         >
                                       <a
-                                        href="#"
+                                        href="https://cityacademiccentre.com/news"
                                         target="_blank"                        >
-                                        Bookstore
+                                        Articles
                                       </a>
                                     </li>
                                     <li
                                       class="navigation-submenu-section-item"                           >
                                       <a
-                                        href="https://www.cityacademiccentre.com/free-prince2-information-seminars"                 >
-                                        Training & Seminars
+                                        href="https://www.cityacademiccentre.com/trainings-and-seminars"                 >
+                                        Training &amp; Seminars
                                       </a>
                                     </li>
                                   </ul>
@@ -1090,18 +873,9 @@
                                   <ul class="navigation-submenu-section">
                                     <li
                                       class="navigation-submenu-section-item"           >
-                                      <a
-                                        href="https://www.cityacademiccentre.com/downloads"                                   >
-                                       Free Downloads
-                                      </a>
+                                     
                                     </li>
-                                    <li
-                                      class="navigation-submenu-section-item"                                  >
-                                      <a
-                                        href="#"                                    >
-                                        Take<sup>2</sup>
-                                      </a>
-                                    </li>
+                                   
                                   </ul>
                                 </div>
   
@@ -1111,31 +885,25 @@
                                       class="navigation-submenu-section-item"                                  >
                                       <a
                                         href="#"                                    >
-                                        Virtual Learning
+                                        Learning Styles
                                       </a>
                                     </li>
                                     <li
                                       class="navigation-submenu-section-item"                                  >
                                       <a
-                                        href="#"                                    >
-                                        Virtuele FAQs
+                                        href="https://cityacademiccentre.com/faq"                                    >
+                                         FAQs
                                       </a>
                                     </li>
                                   </ul>
                                 </div>
                                 <div class="col-md-3">
                                   <ul class="navigation-submenu-section">
+                                    
                                     <li
                                       class="navigation-submenu-section-item"                                  >
                                       <a
-                                        href="#"                                    >
-                                        PRINCE2-spell
-                                      </a>
-                                    </li>
-                                    <li
-                                      class="navigation-submenu-section-item"                                  >
-                                      <a
-                                        href="#"                                    >
+                                        href="https://cityacademiccentre.com/events-information/"                                    >
                                         Events
                                       </a>
                                     </li>
@@ -1155,27 +923,17 @@
 
               <li class="navigation-item">
                 <a
-                  href="#"
+                  href="https:cityacademiccentre.com/resources"
                   class="navigation-item-link"                >
                   Resources
                 </a>
               </li>
 
 
-
-
-              <li class="navigation-item">
-                <a
-                  href="#"
-                  class="navigation-item-link"                >
-                  Downloads
-                </a>
-              </li>
-
               <li class="navigation-item ml-lg-3">
                 <div class="navigation-action-buttons d-none d-md-block">
                   <a
-                    href="#"
+                    href="https://cityacademiccentre.com/training-free-quote-request/"
                     title="Offerte aanvragen"
                     class="navigation-action-button get-quote smaller"
                     style="background-color:rgb(23, 154, 174)"                  >
@@ -1196,13 +954,13 @@
 
      
 
-      <a href="#">
+      <a href="https://cityacademiccentre.com/courses">
         <div class="discount-banner text-center text-md-left" style="background-color: rgb(23, 154, 174); ">
           <div class="container">
             <div class="discount-banner-content d-block d-md-flex justify-content-between align-items-center">
               <div class="main-text pr-3">
                 <span style="line-height: 1">
-                  <p>25% off e-learning!</p>
+                  <p>25% off Virtual Learning!</p>
                 </span>
               </div>
               <span class="discount-code-text mb-0 d-block">
@@ -1245,147 +1003,85 @@
 
 
      
-
-      <!---Start of the featured courses-->
-      <div class="lower-header-banner standalone-image-banner home-banner">
-        <div class="banner-item">
-          <div class="container">
-            <div class="row align-items-center">
-              
-              <div class="col-lg-3">
-                <div class="banner-text pr-md-4">
-                  Transform Your Project Management Skill with Cutting-Edge Tools!
-                  <span class="banner-text-subtitle">
-                    Stay Ahead of the Curve: Dive into the Latest Tools and Methodologies for Unmatched Success in Project Management!
-                  </span>
-                  <div class="banner-text-dynamic-content">            
-                  </div>
-                </div>
-              </div>
-
-              <!--- image in the featured section-->
-              <div class="col-md-3 p-0 d-none d-lg-block" style="position: static">
-                <img src="images/online course ads - Made with PosterMyWall.jpg" alt="Woman smiling" class="banner-standalone-image d-none d-lg-block" />
-              </div>
-              
-              <div class="col-lg">
-                <div class="banner-featured-products">
-                    <h3 class="banner-featured-products-title mb-3">
-                        Featured Courses
-                    </h3>
-            
-                    <div class="row">
-                        <!-- Course 1 -->
-                        <div class="col-md-6 mb-3">
-                            <div class="course-block">
-                                <!-- Course content here -->
-                                <h3>Prince2 7th Edition for Foundation and Practional</h3> 
-                                <p>
-                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. In aperiam amet voluptatum hic eligendi magni architecto ex magnam natus dolor? Ad facilis similique unde ex laborum hic magni commodi veritatis.
-                                </p>    
-                                <p class="price-range">€ Price Range</p>     
-                                <button class="course-featured-btn">View Course Info</button>                  
-                            </div>
-                        </div>
-            
-                        <!-- Course 2 -->
-                        <div class="col-md-6 mb-3">
-                            <div class="course-block">
-                                <!-- Course content here -->
-                                <h3>GDPR for Foundation and Practional</h3> 
-                                <p>
-                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. In aperiam amet voluptatum hic eligendi magni architecto ex magnam natus dolor? Ad facilis similique unde ex laborum hic magni commodi veritatis.
-                                </p>    
-                                <p class="price-range">€ Price Range</p>     
-                                <button class="course-featured-btn">View Course Info</button>   
-                            </div>
-                        </div>
-            
-                        <!-- Course 3 -->
-                        <div class="col-md-6 mb-3">
-                            <div class="course-block">
-                                <!-- Course content here -->
-                                <h3>Lean Six Sigma for Foundation and Practional</h3> 
-                                <p>
-                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. In aperiam amet voluptatum hic eligendi magni architecto ex magnam natus dolor? Ad facilis similique unde ex laborum hic magni commodi veritatis.
-                                </p>    
-                                <p class="price-range">€ Price Range</p>     
-                                <button class="course-featured-btn">View Course Info</button>   
-                            </div>
-                        </div>
-            
-                        <!-- Still inside the course container for adding more additional courses to the featured course section -->
-            
-                    </div>
-                </div>
-            </div>
-            
-               <!--End of the featured course item container-->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!---Start of All courses container-->
+     
+      <!--- Start of our training section-->
+      
       <div class="home-content">
         <div class="course-blocks-section home">
           <div class="container">
-            <h3 class="mt-4 mb-4"> Our Training Courses</h3>
+            <h3 class="mt-4 mb-4">OUR TRAINING COURSES</h3>
 
-
-            <!---- Start of showing the course header-->
-            <ul class="course-blocks-tabs navtabs d-none d-md-flex">              
+            <ul class="course-blocks-tabs navtabs d-none d-md-flex">
               <li>
-                <a class="navtab active " href="#" data-show-tab="#prince2-products" role="tab">
-                  PRINCE2® 7
+                <a
+                  class="navtab active"
+                  href="#"
+                  data-show-tab="#prince2-products"
+                  role="tab"
+                >
+                  PRINCE2® 7th EDITION
                 </a>
               </li>
               <li>
-                <a class="navtab" href="#" data-show-tab="#gdpr-products" role="tab">
-                  GDPR - Foundation Practitioner
+                <a
+                  class="navtab"
+                  href="#"
+                  data-show-tab="#gdpr-products"
+                  role="tab"
+                >
+                  GENERAL DATA PROTECTION REGULATION
                 </a>
               </li>
               <li>
-                <a class="navtab" href="#" data-show-tab="#lean-six-products" role="tab">
-                  LEAN SIX Sigma
+                <a
+                  class="navtab"
+                  href="#"
+                  data-show-tab="#lean-six-products"
+                  role="tab"
+                >
+                  LEAN-SIX SIGMA
                 </a>
               </li>
             </ul>
-
-
-            <!---Start of Enabling select options for mobile view-->
-            <select class="course-blocks-mobile-selector d-block d-md-none mb-4" style="background-color:rgb(23, 154, 174)"  >
-              <option value="#prince2-products">PRINCE2® 7</option>
-              <option value="#gdpr-products">GDPR - FOUNDATION PRACTITIONER®</option>
-              <option value="#lean-six-products">LEAN SIX SIGMA </option>
+            <select class="course-blocks-mobile-selector d-block d-md-none mb-4" id="select-course-mobile">
+              <option class="course-option" value="#prince2-products">PRINCE2® 7th Edition</option>
+              <option class="course-option" value="#gdpr-products">GENERAL DATA PROTECTION REGULATION</option>
+              <option class="course-option" value="#lean-six-products">LEAN SIX SIGMA</option>
             </select>
-             <!--- ENd Enabling select options for mobile view-->
 
-             <!-- START of SHowing PRINCE2 Courses ELEMENT container-->
-            <div class="home-products-wrapper active" id="prince2-products">
+            <div
+              class="home-products-wrapper active"
+              id="prince2-products"
+            >
               <div class="row justify-content-center">
-
-                <!---start of the PRINCE2 SINGLE COURSE-->
                 <div class="col-12 col-md-6 col-lg-3 mb-4">
-                  <div class="course-block-wrapper collapsible collapsible-xs collapsible-box">
+                  <div
+                    class="course-block-wrapper collapsible collapsible-xs collapsible-box"
+                  >
                     <div class="course-block-inner d-flex flex-column">
                       <div class="product-title-wrapper match-height">
-                        <a href="#">
-                          <h2 class="product-title"> PRINCE2® 7 Foundation </h2>
+                        <a
+                          href="#"
+                        >
+                          <h2 class="product-title">
+                            PRINCE2® 7 Foundation 
+                          </h2>
                         </a>
                       </div>
 
-                      <div class="course-block-description product-desc match-height">
+                      <div
+                        class="course-block-description product-desc match-height"
+                      >
                         <p>
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque commodi aliquam obcaecati recusandae. Dolorum sit a ullam expedita eaque ab aspernatur fugit voluptates porro nulla! Facere facilis quam minus sint?
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ut explicabo quae numquam iure obcaecati nobis beatae aperiam. Saepe doloremque blanditiis illum. Dicta aspernatur expedita reiciendis, veritatis fuga aliquid minima!
                         </p>
                       </div>
 
                       <div class="course-block-links mt-4">
                         <div class="course-block-link">
-                          <a href="#"> Online </a>
-                          <a href="#"> Virtual </a>
-                          <a href="#"> Classroom </a>
+                          <a href="#" > Virtual </a>
+                          <a href="#" > Classroom </a>
+                          <a href="#" > Online </a>
                         </div>
                       </div>
 
@@ -1393,110 +1089,477 @@
                         <hr class="my-1 my-md-3" />
                       </div>
 
-                      <div class="course-block-bottom-wrapper d-flex flex-column justify-content-end">
+                      <div
+                        class="course-block-bottom-wrapper d-flex flex-column justify-content-end"
+                      >
                         <div class="course-block-price match-height">
-                          Price Starting From
-                          <span class="course-block-price-value"> €1,310.00 </span> + VAT
+                          Starting Price
+                          <span class="course-block-price-value">
+                            €6,9050.00
+                          </span>
+
+                          + VAT
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!---END of the PRINCE2 SINGLE COURSE-->
+               
+               <!-- start of course item-->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div
+                    class="course-block-wrapper collapsible collapsible-xs collapsible-box"
+                  >
+                    <div class="course-block-inner d-flex flex-column">
+                      <div class="product-title-wrapper match-height">
+                        <a
+                          href="#"
+                        >
+                          <h2 class="product-title">
+                            PRINCE2® 7 Practitioner
+                          </h2>
+                        </a>
+                      </div>
+
+                      <div
+                        class="course-block-description product-desc match-height"
+                      >
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio possimus magnam ratione cupiditate adipisci impedit ab? Expedita possimus dolor harum ut pariatur. Facilis dolore ab dolor consequatur placeat magnam aliquid.
+                        </p>
+                      </div>
+
+                      <div class="course-block-links mt-4">
+                        <div class="course-block-link">
+                          <a  href="#"  >  Virtual  </a>
+                          <a  href="#"  >  Online  </a>
+                          <a  href="#"  >  Classroom  </a>
+                        </div>
+                      </div>
+
+                      <div>
+                        <hr class="my-1 my-md-3" />
+                      </div>
+
+                      <div
+                        class="course-block-bottom-wrapper d-flex flex-column justify-content-end"
+                      >
+                        <div class="course-block-price match-height">
+                          Starting Price<br />
+                          <a
+                            href="tel:+31 (0) 800 020 1230"
+                            class="  "
+                            style="
+                              color: #000;
+                              font-weight: bold;
+                              font-size: 20px;
+                            " >67568</a >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!---End of course item-->
                 
+                <!--Start of course item-->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div
+                    class="course-block-wrapper collapsible collapsible-xs collapsible-box"
+                  >
+                    <div class="course-block-inner d-flex flex-column">
+                      <div class="product-title-wrapper match-height">
+                        <a
+                          href="#"
+                        >
+                          <h2 class="product-title">
+                            PRINCE2® 7 Foundation &amp; Practitioner
+                          </h2>
+                        </a>
+                      </div>
+
+                      <div
+                        class="course-block-description product-desc match-height"
+                      >
+                        <p>
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cupiditate minus consequatur eaque natus harum voluptatum eum, iste in dolore tenetur? Nobis cupiditate dolorem, odio voluptate facilis nostrum hic magni.
+                        </p>
+                      </div>
+
+                      <div class="course-block-links mt-4">
+                        <div class="course-block-link">
+                          <a   href="#"  >  Virtual  </a>
+                          <a   href="#"  >  Classroom  </a>
+                          <a   href="#"  >  Online </a>
+                        </div>
+                      </div>
+
+                      <div>
+                        <hr class="my-1 my-md-3" />
+                      </div>
+
+                      <div
+                        class="course-block-bottom-wrapper d-flex flex-column justify-content-end"
+                      >
+                        <div class="course-block-price match-height">
+                          Starting Price
+                          <span class="course-block-price-value">
+                            €3534.00
+                          </span>
+
+                          + VAT
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>                
+                  <!--End of each course item -->
+
+                  <!--End of each course item-->
+                </div>
               </div>
 
-              
-              
-              
-
-              <div class="text-center">
-                <a href="#" class="view-more-courses" > View More Prince2 Courses    </a>                
-              </div>
-              </div>
-             <!-- END OF SHowing PRINCE2 Course ELEMENT container-->
-
-            <!---- Display GDPR COURSES-->
+             
+           
+            
+            <!--- Start of the GDPR COurses-->
             <div class="home-products-wrapper" id="gdpr-products">
               <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div
+                    class="course-block-wrapper collapsible collapsible-xs collapsible-box"
+                  >
+                    <div class="course-block-inner d-flex flex-column">
+                      <div class="product-title-wrapper match-height">
+                        <a
+                          href="#"
+                        >
+                          <h2 class="product-title">
+                            GDRP FOundation
+                          </h2>
+                        </a>
+                      </div>
+
+                      <div
+                        class="course-block-description product-desc match-height"
+                      >
+                        <p>
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. In aspernatur esse molestias id inventore animi corrupti architecto, expedita doloremque, dolores hic fuga. Quidem, totam iste! Reiciendis facilis debitis excepturi vitae?
+                        </p>
+                      </div>
+
+                      <div class="course-block-links mt-4">
+                        <div class="course-block-link">
+                          <a
+                            href="#"
+                          >
+                            Online,
+                          </a>
+                          <a
+                            href="#"
+                          >
+                            Klassikaal,
+                          </a>
+                          <a
+                            href="#"
+                          >
+                            Virtueel
+                          </a>
+                        </div>
+                      </div>
+
+                      <div>
+                        <hr class="my-1 my-md-3" />
+                      </div>
+
+                      <div
+                        class="course-block-bottom-wrapper d-flex flex-column justify-content-end"
+                      >
+                        <div class="course-block-price match-height">
+                          Initial Price
+                          <span
+                            class="course-block-price-value"
+                            style="
+                              text-decoration: line-through;
+                              font-weight: 300;
+                              color: #636363;
+                            "
+                          >
+                            €75,352.00
+                          </span>
+
+                          <br />
+
+                          Bonus Price
+                          <span class="course-block-price-value">
+                            €1,015.75
+                          </span>
+                          + VAT
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div
+                    class="course-block-wrapper collapsible collapsible-xs collapsible-box"
+                  >
+                    <div class="course-block-inner d-flex flex-column">
+                      <div class="product-title-wrapper match-height">
+                        <a
+                          href="#"
+                        >
+                          <h2 class="product-title">
+                            GDPR Practitioner
+                          </h2>
+                        </a>
+                      </div>
+
+                      <div
+                        class="course-block-description product-desc match-height"
+                      >
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae doloremque a ea error suscipit. Animi voluptate officia mollitia eligendi, sint officiis! Soluta vitae iure facere repellendus officia ipsum doloremque consectetur?
+                        </p>
+                      </div>
+
+                      <div class="course-block-links mt-4">
+                        <div class="course-block-link">
+                          <a
+                            href="#"
+                          >
+                            Online,
+                          </a>
+                          <a
+                            href="#"
+                          >
+                            Classroom,
+                          </a>
+                          <a
+                            href="#"
+                          >
+                            Virtual
+                          </a>
+                        </div>
+                      </div>
+
+                      <div>
+                        <hr class="my-1 my-md-3" />
+                      </div>
+
+                      <div
+                        class="course-block-bottom-wrapper d-flex flex-column justify-content-end"
+                      >
+                        <div class="course-block-price match-height">
+                          Actual Price
+                          <span
+                            class="course-block-price-value"
+                            style="
+                              text-decoration: line-through;
+                              font-weight: 300;
+                              color: #636363;
+                            "
+                          >
+                            €23541,260.00
+                          </span>
+
+                          <br />
+
+                          Bonus Price
+                          <span class="course-block-price-value">
+                            €41,071.00
+                          </span>
+                          + VAT
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--End of course item-->
+
+
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div
+                    class="course-block-wrapper collapsible collapsible-xs collapsible-box"
+                  >
+                    <div class="course-block-inner d-flex flex-column">
+                      <div class="product-title-wrapper match-height">
+                        <a
+                          href="#"
+                        >
+                          <h2 class="product-title">
+                            GDPR Awareness
+                          </h2>
+                        </a>
+                      </div>
+
+                      <div
+                        class="course-block-description product-desc match-height"
+                      >
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque asperiores voluptate, sed dolores excepturi repudiandae recusandae expedita, repellendus, explicabo sint sequi officia architecto illo dolorum ducimus cumque ad ea!
+                        </p>
+                      </div>
+
+                      <div class="course-block-links mt-4">
+                        <div class="course-block-link">
+                          <a
+                            href="#"
+                          >
+                            Online,
+                          </a>
+                          <a
+                            href="#"
+                          >
+                           Classroom,
+                          </a>
+                          <a
+                            href="#"
+                          >
+                            Virtual,
+                          </a>
+                          <a
+                            href="#"
+                          >
+                            Online
+                          </a>
+                        </div>
+                      </div>
+
+                      <div>
+                        <hr class="my-1 my-md-3" />
+                      </div>
+
+                      <div
+                        class="course-block-bottom-wrapper d-flex flex-column justify-content-end"
+                      >
+                        <div class="course-block-price match-height">                         
+
+                          STarting Price
+                          <span class="course-block-price-value">
+                            €41,989.00
+                          </span>
+                          + BTW
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--End of the course item-->
                 
-                 <!---start of the PRINCE2 SINGLE COURSE-->
-                 <div class="col-12 col-md-6 col-lg-3 mb-4">
-                  <div class="course-block-wrapper collapsible collapsible-xs collapsible-box">
-                    <div class="course-block-inner d-flex flex-column">
-                      <div class="product-title-wrapper match-height">
-                        <a href="#">
-                          <h2 class="product-title"> GDPR® Course Template </h2>
-                        </a>
-                      </div>
+                
 
-                      <div class="course-block-description product-desc match-height">
-                        <p>
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque commodi aliquam obcaecati recusandae. Dolorum sit a ullam expedita eaque ab aspernatur fugit voluptates porro nulla! Facere facilis quam minus sint?
-                        </p>
-                      </div>
+              </div>
 
-                      <div class="course-block-links mt-4">
-                        <div class="course-block-link">
-                          <a href="#"> Online </a>
-                          <a href="#"> Virtual </a>
-                          <a href="#"> Classroom </a>
+              <div class="more-home-products">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div
+                      class="course-block-wrapper collapsible collapsible-xs collapsible-box"
+                    >
+                      
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div
+                      class="course-block-wrapper collapsible collapsible-xs collapsible-box"
+                    >
+                      <div class="course-block-inner d-flex flex-column">
+                        <div class="product-title-wrapper match-height">
+                          <a
+                            href="#"
+                          >
+                            <h2 class="product-title">
+                             COURSE TITLE
+                            </h2>
+                          </a>
                         </div>
-                      </div>
 
-                      <div>
-                        <hr class="my-1 my-md-3" />
-                      </div>
+                        <div
+                          class="course-block-description product-desc match-height"
+                        >
+                          <p>
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut ipsa in illum eum optio magni commodi, aspernatur cum eos, et asperiores error. Qui doloribus voluptatem pariatur nam unde nobis accusantium.
+                          </p>
+                        </div>
 
-                      <div class="course-block-bottom-wrapper d-flex flex-column justify-content-end">
-                        <div class="course-block-price match-height">
-                          Price Starting From
-                          <span class="course-block-price-value"> €1,310.00 </span> + VAT
+                        <div class="course-block-links mt-4">
+                          <div class="course-block-link">
+                            <a    href="#"> Online, </a>
+                            <a  href="#" > Classroom,  </a>
+                            <a href="#"  >  Virtual    </a>
+                          </div>
+                        </div>
+
+                        <div>
+                          <hr class="my-1 my-md-3" />
+                        </div>
+
+                        <div
+                          class="course-block-bottom-wrapper d-flex flex-column justify-content-end"
+                        >
+                          <div class="course-block-price match-height">
+                            Initial Price
+                            <span
+                              class="course-block-price-value"
+                              style="
+                                text-decoration: line-through;
+                                font-weight: 300;
+                                color: #636363;
+                              "
+                            >
+                              €4647
+                            </span>
+
+                            <br />
+
+                            Starting PRice
+                            <span class="course-block-price-value">
+                              €1,989.00
+                            </span>
+                            + VAT
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!---END of the PRINCE2 SINGLE COURSE-->
-
               </div>
-
-
-
-              <div class="text-center">
-                <a href="#" class="view-more-courses" > View More GDPR Courses    </a>                
-              </div>
-              </div>
+              
             </div>
-            <!---- End of GDPR CONTAINER-->
-
-
-            <!--- START OF LEAN SIX COURSES-->
-            <div class="home-products-wrapper" id="lean-six-products">
+           
+           
+            <div
+              class="home-products-wrapper"
+              id="lean-six-products"     >
               <div class="row justify-content-center">
-                <!----start inserting each course item-->
-
-                 <!---start of the LEAN-SIX SINGLE COURSE-->
-                 <div class="col-12 col-md-6 col-lg-3 mb-4">
-                  <div class="course-block-wrapper collapsible collapsible-xs collapsible-box">
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div
+                    class="course-block-wrapper collapsible collapsible-xs collapsible-box"
+                  >
                     <div class="course-block-inner d-flex flex-column">
                       <div class="product-title-wrapper match-height">
-                        <a href="#">
-                          <h2 class="product-title"> LEAN SIX SIGMA TEMPLATE </h2>
+                        <a
+                          href="#"
+                        >
+                          <h2 class="product-title">
+                            Green Belt Course Template
+                          </h2>
                         </a>
                       </div>
 
-                      <div class="course-block-description product-desc match-height">
+                      <div
+                        class="course-block-description product-desc match-height"
+                      >
                         <p>
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque commodi aliquam obcaecati recusandae. Dolorum sit a ullam expedita eaque ab aspernatur fugit voluptates porro nulla! Facere facilis quam minus sint?
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum nihil tenetur quis obcaecati! Magni autem voluptatum quis quam sunt quia itaque vitae quisquam, provident at ducimus voluptatibus labore saepe fugit?
                         </p>
                       </div>
 
                       <div class="course-block-links mt-4">
                         <div class="course-block-link">
-                          <a href="#"> Online </a>
-                          <a href="#"> Virtual </a>
-                          <a href="#"> Classroom </a>
+                          <a   href="#"  >  Online     </a>
+                          <a   href="#"  >  Classroom    </a>
+                          <a   href="#"  >  Virtual     </a>
                         </div>
                       </div>
 
@@ -1504,27 +1567,231 @@
                         <hr class="my-1 my-md-3" />
                       </div>
 
-                      <div class="course-block-bottom-wrapper d-flex flex-column justify-content-end">
+                      <div
+                        class="course-block-bottom-wrapper d-flex flex-column justify-content-end"
+                      >
                         <div class="course-block-price match-height">
-                          Price Starting From
-                          <span class="course-block-price-value"> €1,310.00 </span> + VAT
+                          Actual Price
+                          <span
+                            class="course-block-price-value"
+                            style="
+                              text-decoration: line-through;
+                              font-weight: 300;
+                              color: #636363;
+                            "
+                          >
+                            €9,8920.00
+                          </span>
+
+                          <br />
+
+                         Bonus Price
+                          <span class="course-block-price-value">
+                            €13,417.00
+                          </span>
+                          + VAT
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!---END of the LEAN-SIX SINGLE COURSE-->
-              </div>
+                <!-- End of each course item-->
+                <!---- start of each course item-->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div
+                    class="course-block-wrapper collapsible collapsible-xs collapsible-box" >
+                    <div class="course-block-inner d-flex flex-column">
+                      <div class="product-title-wrapper match-height">
+                        <a
+                          href="https://www.prince2.com/nl/prince2-agile-dutch/foundation-practitioner"
+                        >
+                          <h2 class="product-title">
+                            Yellow Belt Course Template
+                          </h2>
+                        </a>
+                      </div>
+
+                      <div
+                        class="course-block-description product-desc match-height"
+                      >
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit incidunt facere doloribus dolorum architecto perspiciatis sequi consequatur corrupti eius corporis amet quae, quam consectetur cupiditate officiis ipsum sed, ipsam atque!
+                        </p>
+                      </div>
+
+                      <div class="course-block-links mt-4">
+                        <div class="course-block-link">
+                          <a
+                            href="https://www.prince2.com/nl/prince2-agile-dutch/foundation-practitioner/online" >
+                            Online,
+                          </a>
+                          <a
+                            href="https://www.prince2.com/nl/prince2-agile-dutch/plus-pack/online"  >
+                           Virtual,
+                          </a>
+                          <a
+                            href="https://www.prince2.com/nl/prince2-agile-dutch/plus-pack/online"  >
+                           Classroom
+                          </a>
+                        </div>
+                      </div>
+
+                      <div>
+                        <hr class="my-1 my-md-3" />
+                      </div>
+
+                      <div
+                        class="course-block-bottom-wrapper d-flex flex-column justify-content-end" >
+                        <div class="course-block-price match-height">
+                          Actual Price
+                          <span
+                            class="course-block-price-value"
+                            style="
+                              text-decoration: line-through;
+                              font-weight: 300;
+                              color: #636363;
+                            "
+                          >
+                            €987940.00
+                          </span>
+
+                          <br />
+
+                          Bonus Price
+                          <span class="course-block-price-value">
+                            €6787.00
+                          </span>
+                          + VAT
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!----Satrt of each course item-->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div
+                    class="course-block-wrapper collapsible collapsible-xs collapsible-box"
+                  >
+                    <div class="course-block-inner d-flex flex-column">
+                      <div class="product-title-wrapper match-height">
+                        <a
+                          href="https://www.prince2.com/nl/prince2-agile-dutch/foundation"
+                        >
+                          <h2 class="product-title">
+                            Green &amp; YellowBelt Course Template
+                          </h2>
+                        </a>
+                      </div>
+
+                      <div
+                        class="course-block-description product-desc match-height" >
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo et eos assumenda temporibus minima ullam non nisi! Magnam veritatis alias, voluptatum, amet veniam hic expedita in suscipit impedit possimus animi!
+                        </p>
+                      </div>
+
+                      <div class="course-block-links mt-4">
+                        <div class="course-block-link">
+                          <a
+                            href="https://www.prince2.com/nl/prince2-agile-dutch/foundation/classroom"
+                          >
+                            Online
+                          </a>
+                          <a
+                            href="https://www.prince2.com/nl/prince2-agile-dutch/foundation/virtual"
+                          >
+                            Virtual
+                          </a>
+
+                          <a
+                            href="https://www.prince2.com/nl/prince2-agile-dutch/foundation/virtual"
+                          >
+                            Classroom
+                          </a>
+                        </div>
+                      </div>
+
+                      <div>
+                        <hr class="my-1 my-md-3" />
+                      </div>
+
+                      <div
+                        class="course-block-bottom-wrapper d-flex flex-column justify-content-end"
+                      >
+                        <div class="course-block-price match-height">
+                          Starting Price
+                          <span class="course-block-price-value">
+                            €210.00
+                          </span>
+
+                          + VAT
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of each course item-->
 
 
-              <div class="text-center">
-                <a href="#" class="view-more-courses" > View More Lean-Six Courses    </a>                
+
               </div>
-              </div>
+
+            
+
+              
             </div>
           </div>
         </div>
+        <!----End of our training section-->
+        
+        
 
+      </div>
+      <!-- end of our taining section-->
+
+
+
+
+        <!------VIRTUAL, CLASSROOM and ONLINE LEARNING CONTAINER-->       
+        <div class="learning-style">
+          <!---start of the learning stle item--->
+          <div class="learning-item">
+            <img src="images/videoconference.png" alt="">
+            <h3 class="learning-item-title">Online Learning</h3>
+            <p class="learning-item-desc"> 
+              Master skills at your pace with our online courses. Access engaging content anytime, anywhere, and tailor your learning journey to 
+              suit your lifestyle. Enjoy the freedom to revisit material, progress on your terms, and gain knowledge on your schedule.
+            </p>
+          </div>
+          <!-- End of the learning style item-->
+  
+           <!---start of the learning stle item--->
+           <div class="learning-item">
+            <img src="images/online-education.png" alt="">
+            <h3 class="learning-item-title">Virtual Learning</h3>
+            <p class="learning-item-desc">
+              Embark on a dynamic virtual learning journey that brings expert-led sessions to your screen. Collaborate with peers in real-time, enjoy the 
+              flexibility to learn from anywhere, and dive into an interactive experience that fits your schedule seamlessly.
+            </p>
+          </div>
+          <!-- End of the learning style item-->
+  
+           <!---start of the learning stle item--->
+           <div class="learning-item">
+            <img src="images/classroom.png" alt="">
+            <h3 class="learning-item-title">Classroom Learning</h3>
+            <p class="learning-item-desc"> 
+              Immerse yourself in hands-on learning with our physical courses. Join industry experts in person, 
+              engage in interactive sessions, and benefit from a supportive environment. Network with peers, ask questions 
+              face-to-face, and gain practical insights for real-world application.
+            </p>
+          </div>
+          <!-- End of the learning style item-->          
+         </div>
+      
+       <!---End of the online, classrromm and virtual container-->
+        
       
         <!---IGNITE YOUR LEARNING SECTION--> 
         <section id="learning-section" style="background-image: url('images/people.jpg');">
@@ -1543,43 +1810,108 @@
        <!--End of igniteing your learning section--->
 
 
-       <!------VIRTUAL, CLASSROOM and ONLINE LEARNING CONTAINER-->
-      <div class="row" style="margin-left: 50px; margin-right: 50px;">
-        <div class="learning-style">
-          <!---start of the learning stle item--->
-          <div class="learning-item">
-            <img src="images/videoconference.png" alt="">
-            <h3 class="learning-item-title">Online Learning</h3>
-            <p class="learning-item-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque sequi iusto accusantium id officiis numquam eligendi saepe, ea consequatur aliquid ratione, fuga laudantium nam beatae natus cumque quas aut?</p>
-          </div>
-          <!-- End of the learning style item-->
-  
-           <!---start of the learning stle item--->
-           <div class="learning-item">
-            <img src="images/online-education.png" alt="">
-            <h3 class="learning-item-title">Virtual Learning</h3>
-            <p class="learning-item-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque sequi iusto accusantium id officiis numquam eligendi saepe, ea consequatur aliquid ratione, fuga laudantium nam beatae natus cumque quas aut?</p>
-          </div>
-          <!-- End of the learning style item-->
-  
-           <!---start of the learning stle item--->
-           <div class="learning-item">
-            <img src="images/classroom.png" alt="">
-            <h3 class="learning-item-title">Classroom Learning</h3>
-            <p class="learning-item-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque sequi iusto accusantium id officiis numquam eligendi saepe, ea consequatur aliquid ratione, fuga laudantium nam beatae natus cumque quas aut?</p>
-          </div>
-          <!-- End of the learning style item-->
-         </div>
-      </div>
-       <!---End of the online, classrromm and virtual container-->
+       <section id="testimnial-swiper-section" style="background: linear-gradient(to right, hsl(186, 98%, 37%), hsl(170, 100%, 40% )); height: 650px">
+        
+               <!-- START of swiper testimonials-->
+               <div class="containers-testimonial">
+                <div class="section-header"><br><br><br>
+                  <h2 class="title" > What Poeple are saying?</h2>                  
+                </div>                
+                <div class="testimonials-content">                  
+                  <div class="swiper testimonials-slider js-testimonials-slider">                    
+                    <div class="swiper-wrapper">
+                      <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                      <!--start of testimonial item container-->
+                      <div class="swiper-slide testimonials-item">
+                        <div class="info">
+                          <h3 class="img-txt">EC</h3>
+                          <div class="text-box">
+                            <h3 class="name"> Emily</h3>
+                            <span class="job"> </span>
+                          </div>
+                        </div>
+                        <p>
+                          Huge thanks to Franklin for making the course engaging and presenting the content in a way which was easy to digest. Franklin made it comfortable for everyone to ask questions which often spiked debates and always had a good example at hand to make things make sense. He's a funny and very knowledgeable guy!
+                        </p>
+                        <div class="review-stars">
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                      <!-- End of the testimonial item container-->
 
+                  
+
+                       <!--start of testimonial item container-->
+                       <div class="swiper-slide testimonials-item">
+                        <div class="info">
+                          <h3 class="img-txt">GD</h3>
+                          <div class="text-box">
+                            <h3 class="name"> Gregg</h3>
+                            <span class="job"></span>
+                          </div>
+                        </div>
+                        <p>
+                          I would like to say the training with Franklin was informed, interesting and engaging. He made what could be tough few days extremely enjoyable. His anecdotes and references helped the scenario interesting and I would highly recommend him as a trainer for any future attendees.
+                        </p>
+                        <div class="review-stars">
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                      <!-- End of the testimonial item container-->
+
+                       <!--start of testimonial item container-->
+                       <div class="swiper-slide testimonials-item">
+                        <div class="info">
+                          <h3 class="img-txt">SZ</h3>
+                          <div class="text-box">
+                            <h3 class="name"> Zeke</h3>
+                            <span class="job"> </span>
+                          </div>
+                        </div>
+                        <p>
+                          Great trainer, and useful structure during the learning for PRINCE2. Would highly recommend them to anyone that want to prepare for PRINCE2 exam
+                        </p>
+                        <div class="review-stars">
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                          <i class="fa fa-star review-star" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                      <!-- End of the testimonial item container-->
+
+                      
+                    </div>                                        
+                  </div>
+                 
+                  <!--Adding pagination to the slide-->
+                  <div class="swiper-pagination js-testimonials-pagination"></div>
+                </div>
+              </div>
+              <!--End of swiper testimonials-->
+
+       </section>
+       <!--- End of the swiper testimonials-->
+
+       
+
+       <!----THE courses banner-->
+
+      
+       <!--- End of the courses banner-->
 
        <!--start of the tesimonial section-->
         <div class="container" style="margin-top: 80px;">
-
-
-         
-          
           <div class="reviews-section">
             <h3>What other Students are saying?</h3>
             
@@ -1764,13 +2096,19 @@
                 </div>
               </div>
                <!----End of review item-->
-             
-               <button class="slider-button" id="view-all-review"> View Reviews</button> 
+
+               
+               
+              <a href="https://cityacademiccentre.com/testimonials" class="slider-button" id="view-all-review">View Reviews</a>
+               
             </div>          
           </div>        
         </div>
       </div>
       <!---End of the review section-->
+
+
+     
 
     
 
@@ -1789,15 +2127,15 @@
                 <ul class="footer-column-list collapsible-column-list">
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">What is PRINCE2?</a>
+                      class="footer-column-list-item-link">Why should you do PRINCE2?</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">Info on Prince2</a>
+                      class="footer-column-list-item-link">Introduction to Prince2 Principles</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2-examens</a>
+                      class="footer-column-list-item-link">Managing & Applying Prince2 in Projects</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
@@ -1805,63 +2143,47 @@
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2-methodiek</a>
+                      class="footer-column-list-item-link">PRINCE2-methodologies</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2 Procesmodel</a>
+                      class="footer-column-list-item-link">Advanced Prince2 Concept</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2-kwalificaties</a>
+                      class="footer-column-list-item-link">Prince2 Processes</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">Handige links voor PRINCE2</a>
+                      class="footer-column-list-item-link">Prince2 Agile Integration & Customization for Larger scale projects</a>
                   </li>
                 </ul>
               </div>
 
               <div class="col-lg-3">
                 <a href="#" class="footer-column-title d-none d-lg-block">
-                 About  GDPR Foundation®
+                 About  General Data Protection Regulations
                 </a>
                 <a href="#" class="footer-column-title d-block d-lg-none mobile">
-                  About PRINCE2®
+                  About GDPR
                 </a>
                 <ul class="footer-column-list collapsible-column-list">
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">What is PRINCE2?</a>
+                      class="footer-column-list-item-link">Introduction to GDPR</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">Info on Prince2</a>
+                      class="footer-column-list-item-link">GDPR Compliance Essentials</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2-examens</a>
+                      class="footer-column-list-item-link">Data Protection Impact Assessment (DPIA)</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2 FAQs</a>
-                  </li>
-                  <li class="footer-column-list-item">
-                    <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2-methodiek</a>
-                  </li>
-                  <li class="footer-column-list-item">
-                    <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2 Procesmodel</a>
-                  </li>
-                  <li class="footer-column-list-item">
-                    <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2-kwalificaties</a>
-                  </li>
-                  <li class="footer-column-list-item">
-                    <a href="#" title=""
-                      class="footer-column-list-item-link">Handige links voor PRINCE2</a>
-                  </li>
+                      class="footer-column-list-item-link">GDPR Documentation Requirements</a>
+                  </li>                 
                 </ul>
               </div>
 
@@ -1871,41 +2193,33 @@
                  About  Lean Six Sigma®
                 </a>
                 <a href="#" class="footer-column-title d-block d-lg-none mobile">
-                  About PRINCE2®
+                  About Lean Six Sigma
                 </a>
                 <ul class="footer-column-list collapsible-column-list">
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">What is PRINCE2?</a>
+                      class="footer-column-list-item-link">Introdution to Lean Six & Principles</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">Info on Prince2</a>
+                      class="footer-column-list-item-link">Lean Six Sigma Yellow, Green & Black Belt Training & Certification Prep</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2-examens</a>
+                      class="footer-column-list-item-link">Advanced Statistical Analysis in Six Sigma & Project implementation</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2 FAQs</a>
+                      class="footer-column-list-item-link">Lean Six tools & techniques</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2-methodiek</a>
+                      class="footer-column-list-item-link">Lean Six implementation strategies</a>
                   </li>
                   <li class="footer-column-list-item">
                     <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2 Procesmodel</a>
-                  </li>
-                  <li class="footer-column-list-item">
-                    <a href="#" title=""
-                      class="footer-column-list-item-link">PRINCE2-kwalificaties</a>
-                  </li>
-                  <li class="footer-column-list-item">
-                    <a href="#" title=""
-                      class="footer-column-list-item-link">Handige links voor PRINCE2</a>
-                  </li>
+                      class="footer-column-list-item-link">Six Sigma DMAIC Methodology</a>
+                  </li>                 
                 </ul>
               </div>
 
@@ -1919,42 +2233,42 @@
                 <div class="collapsible-column-list">
                   <div class="footer-contact-info text-center text-lg-left">
                     <div class="footer-contact-info-address">
-                      3rd Floor, 86-90 Paul Street, London
+                      108 Edgehill Road, Birmingham,
                       <br class="d-none d-md-block" />
-                      EC2A 4NE
+                      B313RX
                     </div>
 
                     <div class="footer-contact-info-contact-details mt-0">
-                      <a href="#" class="blue-link">Aanvraagformulier</a>
+                      <a href="https://cityacademiccentre.com/contact/" class="blue-link">Send Us Message</a>
                       <br />
                       <span class="contact-info-label font-weight-bold">T:</span>
-                      <a href="tel:+31 (0) 800 020 1230" id="telNum">
-                        <span class="tel rTapNumber164590 number">+31 (0) 800 020 1230</span>
+                      <a href="tel:+44 333 772 2821" id="telNum">
+                        <span class="tel rTapNumber164590 number">+44 333 772 2821</span>
                       </a>
                       <br />
-                      <span class="contact-info-label font-weight-bold">E:</span>
+                      <span class="contact-info-label font-weight-bold">Email:</span>
                       <a href="mailto:netherlands@ilxgroup.com">
                         <span>enquiries@cityacademiccentre.com</span>
                       </a>
                       <br />
-                      <a href="#" class="blue-link">Request a quote</a>
+                      <a href="https://cityacademiccentre.com/training-free-quote-request/" class="blue-link">Request a quote</a>
                     </div>
                   </div>
                 </div>
 
-                <a href="#" class="footer-column-title d-none d-lg-block">
+                <a href="https://cityacademiccentre.com/downloads" class="footer-column-title d-none d-lg-block">
                  Downloads
                  </a>
-                 <a href="#" class="footer-column-title d-block d-lg-none mobile">
+                 <a href="https://cityacademiccentre.com/downloads" class="footer-column-title d-block d-lg-none mobile">
                    Download
                  </a>
                  <div class="collapsible-column-list">
                    <div class="footer-contact-info text-center text-lg-left">
                      <div class="footer-contact-info-address">
-                       <a href="">Resources</a> <br>
-                       <a href="">Popular</a>
+                       <a href="https://cityacademiccentre.com/resources">Resources</a> <br>
+                       <a href="https://cityacademiccentre.com/downloads">Popular</a>
                        <br class="d-none d-md-block" />
-                       Free Downloads
+                       
                      </div>
  
                     
@@ -1971,15 +2285,14 @@
                  <div class="footer-social-icon-list">
                   <a
                     class="footer-social-icon-wrapper youtube"
-                    href="#"
+                    href="https://www.youtube.com/channel/UCaKcO82iEE96I5Tw_u2rPtA"
                     rel="nofollow"
-                    target="_blank"
-                  >
+                    target="_blank"                  >
                     <i class="fa fa-youtube-play"></i>
                   </a>
                   <a
                     class="footer-social-icon-wrapper facebook"
-                    href="#"
+                    href="https://www.facebook.com/cityacademiccentre/"
                     rel="nofollow"
                     target="_blank"
                   >
@@ -1987,7 +2300,7 @@
                   </a>
                   <a
                     class="footer-social-icon-wrapper twitter"
-                    href="#"
+                    href="https://twitter.com/cityacademi"
                     rel="nofollow"
                     target="_blank"
                   >
@@ -1995,7 +2308,7 @@
                   </a>
                   <a
                     class="footer-social-icon-wrapper instagram"
-                    href="#"
+                    href="https://www.instagram.com/cityacademiccentre/"
                     rel="nofollow"
                     target="_blank"
                   >
@@ -2025,11 +2338,40 @@
       <div
         class="row align-items-center justify-content-xl-between justify-content-center"
       >
+
+      <div class="col-md-auto col-3 mb-3 mb-xl-0">
+        <img
+          src="https://cityacademiccentre.com/wp-content/uploads/2023/12/58274A01584A461095D0F918F08A0BBC_Prince2-7-Teal-logo-300x86.png"
+          alt="People cert"
+          class="img-responsive"
+          style="height: 80px; width: 80px"
+        />
+      </div>
+
+      <div class="col-md-auto col-3 mb-3 mb-xl-0">
+        <img
+          src="https://cityacademiccentre.com/wp-content/uploads/2023/12/Bronze-ATO-Logo-300x300.png"
+          alt="People cert"
+          class="img-responsive"
+          style="height: 80px; width: 80px"
+        />
+      </div>
+
+      <div class="col-md-auto col-3 mb-3 mb-xl-0">
+        <img
+          src="https://cityacademiccentre.com/wp-content/uploads/2023/12/C68130506E2D422FB258B444B82C8C99_pc-red-300x116.png"
+          alt="People cert"
+          class="img-responsive"
+          style="height: 80px; width: 80px"
+        />
+      </div>
+
         <div class="col-md-auto col-3 mb-3 mb-xl-0">
           <img
             src="images/google-pay.png"
             alt="Google Pay"
             class="img-responsive"
+            style="height: 80px; width: 80px"
           />
         </div>
 
@@ -2052,6 +2394,7 @@
             src="images/apple-pay.png"
             alt="Apple Pay"
             class="img-responsive"
+            style="height: 80px; width: 80px"
           />
         </div>
         <div class="col-md-auto col-4 mb-3 mb-xl-0">
@@ -2068,8 +2411,31 @@
   </div>
 
 
-  
-
+  <!---Swiper script-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const swiper = new Swiper('.js-testimonials-slider', {
+        grabCursor: true,
+        spaceBetween: 35,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.js-testimonials-pagination',
+          clickable: true
+        },
+        breakpoints: {
+          767: {
+            slidesPerView: 2,
+          }
+        }
+      });
+    });
+    
+    
+  </script>
 </body>
 
 </html>
